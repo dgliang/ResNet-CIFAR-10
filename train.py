@@ -8,6 +8,7 @@ from config import Config
 import logging
 from data_loader import read_dataset
 from model.ResNet import ResNet18
+from torch.optim.lr_scheduler import CosineAnnealingLR
 
 
 logging.basicConfig(
@@ -87,6 +88,7 @@ def validate_model(model: nn.Module, valid_loader, criterion, epoch: int):
 
 
 def adjust_learning_rate(optimizer, epoch, initial_lr=Config.LEARNING_RATE):
+    """*手动调整* 学习率"""
     lr = initial_lr
     # 每10个epoch将学习率减半
     if epoch % 10 == 0 and epoch > 0:
@@ -117,6 +119,7 @@ def main():
         momentum=Config.MOMENTUM, 
         weight_decay=Config.WEIGHT_DECAY
     )
+    scheduler = CosineAnnealingLR(optimizer, T_max=Config.N_EPOCHS) # CosineAnnealingLR 学习率调度器 
     
     # 加载数据
     train_loader, valid_loader, test_loader = read_dataset(
@@ -134,7 +137,10 @@ def main():
         logging.info(f'Epoch: {epoch}/{Config.N_EPOCHS}')
         
         # 调整学习率
-        current_lr = adjust_learning_rate(optimizer, epoch)
+        # current_lr = adjust_learning_rate(optimizer, epoch)
+        current_lr = optimizer.param_group[0]['lr']
+        writer.add_scalar('Learning Rate', current_lr, epoch)
+        scheduler.step()
         
         # 训练和验证
         train_loss = train_epoch(model, train_loader, criterion, optimizer, epoch)
