@@ -7,3 +7,4 @@ runs/
 *.log
 .ipynb_checkpoints/
 *.pyc
+logs/
