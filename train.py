@@ -151,7 +151,7 @@ def main():
         # 调整学习率
         # current_lr = adjust_learning_rate(optimizer, epoch)
         scheduler.step()
-        current_lr = optimizer.param_group[0]['lr']
+        current_lr = optimizer.param_groups[0]['lr']
         writer.add_scalar('Learning Rate', current_lr, epoch)
     
     # 训练结束
