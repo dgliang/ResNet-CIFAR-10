@@ -1,2 +1,9 @@
 dataset/
 checkpoint/
+__pycache__/
+runs/
+*.py[cod]
+*$py.class
+*.log
+.ipynb_checkpoints/
+*.pyc
