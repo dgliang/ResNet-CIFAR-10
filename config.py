@@ -15,5 +15,5 @@ class Config:
     N_CLASSES = 10
     DATA_PATH = 'dataset'
     CHECKPOINT_PATH = 'checkpoint/resnet18_cifar10.pt'
-    LOG_PATH = 'training.log'
+    LOG_PATH = 'logs/training.log'
     TENSORBOARD_PATH = 'runs/resnet18_cifar10'

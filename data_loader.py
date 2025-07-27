@@ -25,13 +25,19 @@ def read_dataset(batch_size=batch_size, valid_size=valid_size, num_workers=num_w
         transforms.RandomCrop(32, padding=4),  #先四周填充0，在吧图像随机裁剪成32*32
         transforms.RandomHorizontalFlip(),  #图像一半的概率翻转，一半的概率不翻转
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]), #R,G,B每层的归一化用到的均值和方差
+        # transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]), #R,G,B每层的归一化用到的均值和方差
+
+        # 之前使用了 ImageNet 的 mean/std, 改成 CIFAR-10 推荐使用自己的 mean/std
+        transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]),
         Cutout(n_holes=1, length=16),
     ])
 
     transform_test = transforms.Compose([
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]),
+        # transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]),
+        # 之前使用了 ImageNet 的 mean/std, 改成 CIFAR-10 推荐使用自己的 mean/std
+        transforms.Normalize(mean=[0.49139968, 0.48215827, 0.44653124], 
+                             std=[0.24703233, 0.24348505, 0.26158768]),
     ])
 
 

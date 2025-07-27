@@ -9,7 +9,8 @@ import logging
 from data_loader import read_dataset
 # from model.ResNet import ResNet18
 from torch.optim.lr_scheduler import CosineAnnealingLR
-from model.ResNet import ResNet50
+# from model.ResNet import ResNet50
+from model.WRN import WideResNet_28_10
 
 
 logging.basicConfig(
@@ -25,11 +26,12 @@ writer = SummaryWriter(Config.TENSORBOARD_PATH)
 
 def create_model():
     # model = ResNet18()
-    model = ResNet50(num_classes=Config.N_CLASSES)
-    model.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
+    # model = ResNet50(num_classes=Config.N_CLASSES)
+    # model.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
     # 将最后的全连接层改掉
     # model.fc = torch.nn.Linear(512, Config.N_CLASSES)
-    model.fc = torch.nn.Linear(2048, Config.N_CLASSES)
+    # model.fc = torch.nn.Linear(2048, Config.N_CLASSES)
+    model = WideResNet_28_10(num_classes=Config.N_CLASSES)
     return model.to(Config.DEVICE)
 
 
