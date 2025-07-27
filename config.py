@@ -9,7 +9,7 @@ class Config:
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
     BATCH_SIZE = 128
     N_EPOCHS = 300
-    LEARNING_RATE = 0.001
+    LEARNING_RATE = 0.1
     MOMENTUM = 0.9
     WEIGHT_DECAY = 5e-4
     N_CLASSES = 10
@@ -17,3 +17,10 @@ class Config:
     CHECKPOINT_PATH = 'checkpoint/resnet18_cifar10.pt'
     LOG_PATH = 'logs/training.log'
     TENSORBOARD_PATH = 'runs/resnet18_cifar10'
+
+    # 适应 CosineAnnealing 的设置
+    LR_SCHEDULER = 'cosine'
+    COSINE_T_MAX = 100
+    ETA_MIN = 0
+    USE_WARMUP = True
+    WARMUP_EPOCHS = 5

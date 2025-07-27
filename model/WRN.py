@@ -1,4 +1,4 @@
-from ResNet import ResNet, BasicBlock
+from .ResNet import ResNet, BasicBlock
 
 
 def WideResNet_28_10(num_classes=10):

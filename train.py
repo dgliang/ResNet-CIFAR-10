@@ -124,7 +124,7 @@ def main():
         momentum=Config.MOMENTUM, 
         weight_decay=Config.WEIGHT_DECAY
     )
-    scheduler = CosineAnnealingLR(optimizer, T_max=Config.N_EPOCHS) # CosineAnnealingLR 学习率调度器 
+    scheduler = CosineAnnealingLR(optimizer, T_max=Config.COSINE_T_MAX, eta_min=Config.ETA_MIN) # CosineAnnealingLR 学习率调度器 
     
     # 加载数据
     train_loader, valid_loader, test_loader = read_dataset(
@@ -168,4 +168,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()    
+    main()
