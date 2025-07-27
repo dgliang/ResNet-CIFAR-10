@@ -19,8 +19,9 @@ class Config:
     TENSORBOARD_PATH = 'runs/resnet18_cifar10'
 
     # 适应 CosineAnnealing 的设置
-    LR_SCHEDULER = 'cosine'
     COSINE_T_MAX = 100
     ETA_MIN = 0
-    USE_WARMUP = True
-    WARMUP_EPOCHS = 5
+
+    # 适应 CosineAnnealingWarmRestarts 的设置
+    T_0 = 10
+    T_mult = 2

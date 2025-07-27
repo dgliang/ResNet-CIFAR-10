@@ -9,6 +9,7 @@ import logging
 from data_loader import read_dataset
 # from model.ResNet import ResNet18
 from torch.optim.lr_scheduler import CosineAnnealingLR
+from torch.optim.lr_scheduler import CosineAnnealingWarmRestarts
 # from model.ResNet import ResNet50
 from model.WRN import WideResNet_28_10
 
@@ -124,7 +125,8 @@ def main():
         momentum=Config.MOMENTUM, 
         weight_decay=Config.WEIGHT_DECAY
     )
-    scheduler = CosineAnnealingLR(optimizer, T_max=Config.COSINE_T_MAX, eta_min=Config.ETA_MIN) # CosineAnnealingLR 学习率调度器 
+    # scheduler = CosineAnnealingLR(optimizer, T_max=Config.COSINE_T_MAX, eta_min=Config.ETA_MIN) # CosineAnnealingLR 学习率调度器 
+    scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=Config.T_0, T_mult=Config.T_mult, eta_min=Config.ETA_MIN)
     
     # 加载数据
     train_loader, valid_loader, test_loader = read_dataset(
