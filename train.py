@@ -118,7 +118,7 @@ def save_model(model, valid_loss, best_loss, path=Config.CHECKPOINT_PATH):
 def main():
     # 创建模型
     model = create_model()
-    criterion = nn.CrossEntropyLoss().to(Config.DEVICE)
+    criterion = nn.CrossEntropyLoss(label_smoothing=0.1).to(Config.DEVICE)
     optimizer = optimf.SGD(
         model.parameters(), 
         lr=Config.LEARNING_RATE, 
