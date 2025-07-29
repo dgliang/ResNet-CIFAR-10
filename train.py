@@ -7,11 +7,10 @@ from torch.utils.tensorboard import SummaryWriter
 from config import Config
 import logging
 from data_loader import read_dataset
-# from model.ResNet import ResNet18
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.optim.lr_scheduler import CosineAnnealingWarmRestarts
-# from model.ResNet import ResNet50
-from model.WRN import WideResNet_28_10
+# from model.WRN import WideResNet_28_10
+from model.wrn_highperf import WideResNet_28_10
 
 
 logging.basicConfig(
@@ -26,13 +25,12 @@ writer = SummaryWriter(Config.TENSORBOARD_PATH)
 
 
 def create_model():
-    # model = ResNet18()
-    # model = ResNet50(num_classes=Config.N_CLASSES)
-    # model.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
-    # 将最后的全连接层改掉
-    # model.fc = torch.nn.Linear(512, Config.N_CLASSES)
-    # model.fc = torch.nn.Linear(2048, Config.N_CLASSES)
-    model = WideResNet_28_10(num_classes=Config.N_CLASSES)
+    model = WideResNet_28_10(
+        num_classes=Config.N_CLASSES,
+        droprate=0.3,
+        use_bn=True,
+        use_fixup=False
+    )
     return model.to(Config.DEVICE)
 
 
@@ -93,20 +91,6 @@ def validate_model(model: nn.Module, valid_loader, criterion, epoch: int):
     return valid_loss, accuracy
 
 
-def adjust_learning_rate(optimizer, epoch, initial_lr=Config.LEARNING_RATE):
-    """*手动调整* 学习率"""
-    lr = initial_lr
-    # 每10个epoch将学习率减半
-    if epoch % 10 == 0 and epoch > 0:
-        lr *= 0.5
-        for param_group in optimizer.param_groups:
-            param_group['lr'] = lr
-        logging.info(f'Learning Rate adjusted to: {lr:.6f}')
-    
-    writer.add_scalar('Learning Rate', lr, epoch)
-    return lr
-
-
 def save_model(model, valid_loss, best_loss, path=Config.CHECKPOINT_PATH):
     if valid_loss <= best_loss:
         logging.info(f'Validation loss decreased ({best_loss:.6f} --> {valid_loss:.6f}). Saving model...')
@@ -125,7 +109,7 @@ def main():
         momentum=Config.MOMENTUM, 
         weight_decay=Config.WEIGHT_DECAY
     )
-    # scheduler = CosineAnnealingLR(optimizer, T_max=Config.COSINE_T_MAX, eta_min=Config.ETA_MIN) # CosineAnnealingLR 学习率调度器 
+    
     scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=Config.T_0, T_mult=Config.T_mult, eta_min=Config.ETA_MIN)
     
     # 加载数据
@@ -153,7 +137,6 @@ def main():
         best_loss = save_model(model, valid_loss, best_loss)
 
         # 调整学习率
-        # current_lr = adjust_learning_rate(optimizer, epoch)
         scheduler.step()
         current_lr = optimizer.param_groups[0]['lr']
         writer.add_scalar('Learning Rate', current_lr, epoch)

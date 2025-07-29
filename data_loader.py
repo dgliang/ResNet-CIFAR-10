@@ -5,6 +5,7 @@ import torchvision.transforms as transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 from utils.cutout import Cutout
 from torchvision.transforms import AutoAugment, AutoAugmentPolicy
+import torch.nn.functional as F
 
 
 # set device
@@ -24,23 +25,22 @@ def read_dataset(batch_size=batch_size, valid_size=valid_size, num_workers=num_w
     pic_path: The path of the pictrues
     """
     transform_train = transforms.Compose([
-        transforms.RandomCrop(32, padding=4),  #先四周填充0，在吧图像随机裁剪成32*32
-        transforms.RandomHorizontalFlip(),  #图像一半的概率翻转，一半的概率不翻转
-        AutoAugment(policy=AutoAugmentPolicy.CIFAR10), # 新增 AutoAugment
+        # transforms.RandomCrop(32, padding=4),  #先四周填充0，在吧图像随机裁剪成32*32
+        # transforms.RandomHorizontalFlip(),  #图像一半的概率翻转，一半的概率不翻转
+        # AutoAugment(policy=AutoAugmentPolicy.CIFAR10), # 新增 AutoAugment
         transforms.ToTensor(),
-        # transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]), #R,G,B每层的归一化用到的均值和方差
-
-        # 之前使用了 ImageNet 的 mean/std, 改成 CIFAR-10 推荐使用自己的 mean/std
+        transforms.Lambda(lambda x: F.pad(x.unsqueeze(0), (4,4,4,4), mode="reflect").squeeze()),
+        transforms.ToPILImage(),
+        transforms.RandomCrop(32),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
         transforms.Normalize(mean=[0.49139968, 0.48215827, 0.44653124], 
                              std=[0.24703233, 0.24348505, 0.26158768]),
-        Cutout(n_holes=1, length=16),
+        Cutout(n_holes=1, length=5),
     ])
 
     transform_test = transforms.Compose([
         transforms.ToTensor(),
-        # transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]),
-
-        # 之前使用了 ImageNet 的 mean/std, 改成 CIFAR-10 推荐使用自己的 mean/std
         transforms.Normalize(mean=[0.49139968, 0.48215827, 0.44653124], 
                              std=[0.24703233, 0.24348505, 0.26158768]),
     ])
