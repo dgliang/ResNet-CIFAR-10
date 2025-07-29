@@ -99,6 +99,21 @@ def save_model(model, valid_loss, best_loss, path=Config.CHECKPOINT_PATH):
     return best_loss
 
 
+def adjust_learning_rate(optimizer, epoch):
+    """ WRN 分段式 step schedule：在 50/100/140 时降低 LR """
+    lr = Config.LEARNING_RATE
+    if epoch >= 140:
+        lr *= 0.008    # 0.05 * 0.008 = 0.0004
+    elif epoch >= 100:
+        lr *= 0.02
+    elif epoch >= 50:
+        lr *= 0.2
+    for param_group in optimizer.param_groups:
+        param_group['lr'] = lr
+    writer.add_scalar('Learning Rate', lr, epoch)
+    logging.info(f"Adjusted learning rate: {lr:.6f}")
+
+
 def main():
     # 创建模型
     model = create_model()
@@ -110,7 +125,7 @@ def main():
         weight_decay=Config.WEIGHT_DECAY
     )
     
-    scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=Config.T_0, T_mult=Config.T_mult, eta_min=Config.ETA_MIN)
+    # scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=Config.T_0, T_mult=Config.T_mult, eta_min=Config.ETA_MIN)
     
     # 加载数据
     train_loader, valid_loader, test_loader = read_dataset(
@@ -125,6 +140,9 @@ def main():
     # 开始训练
     logging.info(f'Starting training on {Config.DEVICE} for {Config.N_EPOCHS} epochs')
     for epoch in tqdm(range(1, Config.N_EPOCHS + 1)):
+        # 调整学习率
+        adjust_learning_rate(optimizer, epoch)
+
         print(f"Epoch {epoch} | LR: {optimizer.param_groups[0]['lr']:.6f}")
         logging.info(f'Epoch: {epoch}/{Config.N_EPOCHS}')
         
@@ -136,10 +154,9 @@ def main():
         # 保存最佳模型
         best_loss = save_model(model, valid_loss, best_loss)
 
-        # 调整学习率
-        scheduler.step()
-        current_lr = optimizer.param_groups[0]['lr']
-        writer.add_scalar('Learning Rate', current_lr, epoch)
+        # scheduler.step()
+        # current_lr = optimizer.param_groups[0]['lr']
+        # writer.add_scalar('Learning Rate', current_lr, epoch)
     
     # 训练结束
     writer.close()

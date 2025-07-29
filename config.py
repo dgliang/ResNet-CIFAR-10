@@ -8,7 +8,7 @@ os.makedirs('checkpoint', exist_ok=True)
 class Config:
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
     BATCH_SIZE = 128
-    N_EPOCHS = 400
+    N_EPOCHS = 170
     LEARNING_RATE = 0.05
     MOMENTUM = 0.9
     WEIGHT_DECAY = 5e-4
