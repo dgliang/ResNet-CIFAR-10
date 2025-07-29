@@ -44,12 +44,9 @@ def train_epoch(model, train_loader, criterion, optimizer, epoch):
         data = data.to(Config.DEVICE)
         target = target.to(Config.DEVICE)
 
-        data, targets_a, targets_b, lam = mixup_data(data, target, alpha=1.0)
-
         optimizer.zero_grad()
         output = model.forward(data).to(Config.DEVICE)
-        # loss = criterion(output, target)
-        loss = mixup_criterion(criterion, output, targets_a, targets_b, lam)
+        loss = criterion(output, target)
         loss.backward()
         optimizer.step()
 
@@ -117,23 +114,6 @@ def save_model(model, valid_loss, best_loss, path=Config.CHECKPOINT_PATH):
         return valid_loss
     return best_loss
 
-def mixup_data(x, y, alpha=1.0):
-    '''Returns mixed inputs, pairs of targets, and lambda'''
-    if alpha > 0:
-        lam = np.random.beta(alpha, alpha)
-    else:
-        lam = 1
-
-    batch_size = x.size()[0]
-    index = torch.randperm(batch_size).to(x.device)
-
-    mixed_x = lam * x + (1 - lam) * x[index, :]
-    y_a, y_b = y, y[index]
-    return mixed_x, y_a, y_b, lam
-
-
-def mixup_criterion(criterion, pred, y_a, y_b, lam):
-    return lam * criterion(pred, y_a) + (1 - lam) * criterion(pred, y_b)
 
 def main():
     # 创建模型
