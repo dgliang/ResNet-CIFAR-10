@@ -135,7 +135,7 @@ def main():
     )
     
     # 训练前的准备
-    best_loss = np.Inf
+    best_loss = np.inf
     accuracy_history = []
     
     # 开始训练

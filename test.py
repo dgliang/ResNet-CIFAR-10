@@ -1,15 +1,17 @@
 import torch
 import torch.nn as nn
 from data_loader import read_dataset
-from model.ResNet import ResNet18
+# from model.ResNet import ResNet18
+from model.WRN import WideResNet_28_10
 from config import Config
 
 
 def load_model():
-    model = ResNet18()
-    model.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
-    model.fc = nn.Linear(512, Config.N_CLASSES)
-    model.load_state_dict(torch.load('checkpoint/resnet18_cifar10.pt'))
+    # model = ResNet18()
+    # model.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
+    # model.fc = nn.Linear(512, Config.N_CLASSES)
+    model = WideResNet_28_10(num_classes=Config.N_CLASSES)
+    model.load_state_dict(torch.load('checkpoint/v1.pt'))
     return model.to(Config.DEVICE)
 
 
