@@ -11,7 +11,7 @@ import torch.nn.functional as F
 # set device
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # number of subprocesses to use for data loading
-num_workers = 0
+num_workers = 2
 # 每批加载图数量
 batch_size = 16
 # percentage of training set to use as validation
@@ -25,9 +25,6 @@ def read_dataset(batch_size=batch_size, valid_size=valid_size, num_workers=num_w
     pic_path: The path of the pictrues
     """
     transform_train = transforms.Compose([
-        # transforms.RandomCrop(32, padding=4),  #先四周填充0，在吧图像随机裁剪成32*32
-        # transforms.RandomHorizontalFlip(),  #图像一半的概率翻转，一半的概率不翻转
-        # AutoAugment(policy=AutoAugmentPolicy.CIFAR10), # 新增 AutoAugment
         transforms.ToTensor(),
         transforms.Lambda(lambda x: F.pad(x.unsqueeze(0), (4,4,4,4), mode="reflect").squeeze()),
         transforms.ToPILImage(),
@@ -72,10 +69,10 @@ def read_dataset(batch_size=batch_size, valid_size=valid_size, num_workers=num_w
 
     # prepare data loaders (combine dataset and sampler)
     train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size,
-        sampler=train_sampler, num_workers=num_workers)
+        sampler=train_sampler, num_workers=num_workers, pin_memory=True)
     valid_loader = torch.utils.data.DataLoader(valid_data, batch_size=batch_size, 
-        sampler=valid_sampler, num_workers=num_workers)
+        sampler=valid_sampler, num_workers=num_workers, pin_memory=True)
     test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size, 
-        num_workers=num_workers)
+        num_workers=num_workers, pin_memory=True)
 
     return train_loader,valid_loader,test_loader

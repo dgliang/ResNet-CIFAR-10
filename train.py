@@ -7,10 +7,8 @@ from torch.utils.tensorboard import SummaryWriter
 from config import Config
 import logging
 from data_loader import read_dataset
-from torch.optim.lr_scheduler import CosineAnnealingLR
-from torch.optim.lr_scheduler import CosineAnnealingWarmRestarts
-# from model.WRN import WideResNet_28_10
 from model.wrn_highperf import WideResNet_28_10
+from utils.manual_lr import adjust_learning_rate
 
 
 logging.basicConfig(
@@ -99,23 +97,6 @@ def save_model(model, valid_loss, best_loss, path=Config.CHECKPOINT_PATH):
     return best_loss
 
 
-def adjust_learning_rate(optimizer, epoch):
-    """ WRN 分段式 step schedule：在 50/100/140/180 时降低 LR """
-    lr = Config.LEARNING_RATE
-    if epoch >= 180:
-        lr *= 0.004
-    elif epoch >= 140:
-        lr *= 0.008    # 0.05 * 0.008 = 0.0004
-    elif epoch >= 100:
-        lr *= 0.02
-    elif epoch >= 50:
-        lr *= 0.2
-    for param_group in optimizer.param_groups:
-        param_group['lr'] = lr
-    writer.add_scalar('Learning Rate', lr, epoch)
-    logging.info(f"Adjusted learning rate: {lr:.6f}")
-
-
 def main():
     # 创建模型
     model = create_model()
@@ -124,10 +105,9 @@ def main():
         model.parameters(), 
         lr=Config.LEARNING_RATE, 
         momentum=Config.MOMENTUM, 
+        nesterov=True,
         weight_decay=Config.WEIGHT_DECAY
     )
-    
-    # scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=Config.T_0, T_mult=Config.T_mult, eta_min=Config.ETA_MIN)
     
     # 加载数据
     train_loader, valid_loader, test_loader = read_dataset(
@@ -143,7 +123,7 @@ def main():
     logging.info(f'Starting training on {Config.DEVICE} for {Config.N_EPOCHS} epochs')
     for epoch in tqdm(range(1, Config.N_EPOCHS + 1)):
         # 调整学习率
-        adjust_learning_rate(optimizer, epoch)
+        adjust_learning_rate(optimizer, epoch, writer)
 
         print(f"Epoch {epoch} | LR: {optimizer.param_groups[0]['lr']:.6f}")
         logging.info(f'Epoch: {epoch}/{Config.N_EPOCHS}')
@@ -155,10 +135,6 @@ def main():
         
         # 保存最佳模型
         best_loss = save_model(model, valid_loss, best_loss)
-
-        # scheduler.step()
-        # current_lr = optimizer.param_groups[0]['lr']
-        # writer.add_scalar('Learning Rate', current_lr, epoch)
     
     # 训练结束
     writer.close()

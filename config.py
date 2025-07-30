@@ -3,12 +3,15 @@ import os
 
 # 创建检查点目录
 os.makedirs('checkpoint', exist_ok=True)
+os.makedirs('logs', exist_ok=True)
+os.makedirs('runs', exist_ok=True)
+os.makedirs('dataset', exist_ok=True)
 
 # 训练配置
 class Config:
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
     BATCH_SIZE = 128
-    N_EPOCHS = 210
+    N_EPOCHS = 250
     LEARNING_RATE = 0.1
     MOMENTUM = 0.9
     WEIGHT_DECAY = 5e-4
