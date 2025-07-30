@@ -100,9 +100,11 @@ def save_model(model, valid_loss, best_loss, path=Config.CHECKPOINT_PATH):
 
 
 def adjust_learning_rate(optimizer, epoch):
-    """ WRN 分段式 step schedule：在 50/100/140 时降低 LR """
+    """ WRN 分段式 step schedule：在 50/100/140/180 时降低 LR """
     lr = Config.LEARNING_RATE
-    if epoch >= 140:
+    if epoch >= 180:
+        lr *= 0.004
+    elif epoch >= 140:
         lr *= 0.008    # 0.05 * 0.008 = 0.0004
     elif epoch >= 100:
         lr *= 0.02
