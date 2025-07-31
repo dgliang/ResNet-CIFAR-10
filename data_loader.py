@@ -30,6 +30,7 @@ def read_dataset(batch_size=batch_size, valid_size=valid_size, num_workers=num_w
         transforms.ToPILImage(),
         transforms.RandomCrop(32),
         transforms.RandomHorizontalFlip(),
+        AutoAugment(policy=AutoAugmentPolicy.CIFAR10),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.49139968, 0.48215827, 0.44653124], 
                              std=[0.24703233, 0.24348505, 0.26158768]),
