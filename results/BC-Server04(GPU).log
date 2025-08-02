@@ -1,0 +1,1054 @@
+2025-07-31 07:02:07,635 - INFO - Starting training on cuda for 250 epochs
+2025-07-31 07:02:07,638 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:02:07,638 - INFO - Epoch: 1/250
+2025-07-31 07:03:46,998 - INFO - Train Loss: 1.963428
+2025-07-31 07:03:51,222 - INFO - Valid Loss: 1.591450 | Valid Accuracy: 49.17%
+2025-07-31 07:03:51,223 - INFO - Validation loss decreased (inf --> 1.591450). Saving model...
+2025-07-31 07:03:51,409 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:03:51,409 - INFO - Epoch: 2/250
+2025-07-31 07:05:10,531 - INFO - Starting training on cuda for 180 epochs
+2025-07-31 07:05:10,533 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:05:10,533 - INFO - Epoch: 1/180
+2025-07-31 07:06:16,077 - INFO - Starting training on cuda for 250 epochs
+2025-07-31 07:06:16,079 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:06:16,080 - INFO - Epoch: 1/250
+2025-07-31 07:07:55,548 - INFO - Train Loss: 1.958435
+2025-07-31 07:07:59,781 - INFO - Valid Loss: 1.811028 | Valid Accuracy: 45.86%
+2025-07-31 07:07:59,781 - INFO - Validation loss decreased (inf --> 1.811028). Saving model...
+2025-07-31 07:08:00,022 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:08:00,022 - INFO - Epoch: 2/250
+2025-07-31 07:09:39,265 - INFO - Train Loss: 1.572702
+2025-07-31 07:09:43,491 - INFO - Valid Loss: 1.481102 | Valid Accuracy: 58.42%
+2025-07-31 07:09:43,491 - INFO - Validation loss decreased (1.811028 --> 1.481102). Saving model...
+2025-07-31 07:09:43,731 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:09:43,731 - INFO - Epoch: 3/250
+2025-07-31 07:11:22,985 - INFO - Train Loss: 1.390506
+2025-07-31 07:11:27,228 - INFO - Valid Loss: 1.194491 | Valid Accuracy: 69.66%
+2025-07-31 07:11:27,228 - INFO - Validation loss decreased (1.481102 --> 1.194491). Saving model...
+2025-07-31 07:11:27,459 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:11:27,459 - INFO - Epoch: 4/250
+2025-07-31 07:13:06,891 - INFO - Train Loss: 1.279025
+2025-07-31 07:13:11,144 - INFO - Valid Loss: 1.201424 | Valid Accuracy: 70.06%
+2025-07-31 07:13:11,145 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:13:11,145 - INFO - Epoch: 5/250
+2025-07-31 07:14:50,401 - INFO - Train Loss: 1.200470
+2025-07-31 07:14:54,640 - INFO - Valid Loss: 1.043566 | Valid Accuracy: 76.71%
+2025-07-31 07:14:54,641 - INFO - Validation loss decreased (1.194491 --> 1.043566). Saving model...
+2025-07-31 07:14:54,879 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:14:54,880 - INFO - Epoch: 6/250
+2025-07-31 07:16:34,316 - INFO - Train Loss: 1.154539
+2025-07-31 07:16:38,561 - INFO - Valid Loss: 1.073473 | Valid Accuracy: 76.05%
+2025-07-31 07:16:38,562 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:16:38,562 - INFO - Epoch: 7/250
+2025-07-31 07:18:17,839 - INFO - Train Loss: 1.121640
+2025-07-31 07:18:22,082 - INFO - Valid Loss: 1.116586 | Valid Accuracy: 73.11%
+2025-07-31 07:18:22,083 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:18:22,083 - INFO - Epoch: 8/250
+2025-07-31 07:20:01,478 - INFO - Train Loss: 1.093810
+2025-07-31 07:20:05,725 - INFO - Valid Loss: 1.022497 | Valid Accuracy: 78.04%
+2025-07-31 07:20:05,726 - INFO - Validation loss decreased (1.043566 --> 1.022497). Saving model...
+2025-07-31 07:20:05,971 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:20:05,971 - INFO - Epoch: 9/250
+2025-07-31 07:21:45,265 - INFO - Train Loss: 1.069154
+2025-07-31 07:21:49,511 - INFO - Valid Loss: 0.959427 | Valid Accuracy: 80.82%
+2025-07-31 07:21:49,511 - INFO - Validation loss decreased (1.022497 --> 0.959427). Saving model...
+2025-07-31 07:21:49,746 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:21:49,746 - INFO - Epoch: 10/250
+2025-07-31 07:23:29,212 - INFO - Train Loss: 1.054064
+2025-07-31 07:23:33,460 - INFO - Valid Loss: 1.108342 | Valid Accuracy: 74.77%
+2025-07-31 07:23:33,461 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:23:33,461 - INFO - Epoch: 11/250
+2025-07-31 07:25:12,710 - INFO - Train Loss: 1.036307
+2025-07-31 07:25:16,943 - INFO - Valid Loss: 0.937243 | Valid Accuracy: 81.37%
+2025-07-31 07:25:16,944 - INFO - Validation loss decreased (0.959427 --> 0.937243). Saving model...
+2025-07-31 07:25:17,174 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:25:17,174 - INFO - Epoch: 12/250
+2025-07-31 07:26:56,656 - INFO - Train Loss: 1.032326
+2025-07-31 07:27:00,892 - INFO - Valid Loss: 0.940811 | Valid Accuracy: 81.25%
+2025-07-31 07:27:00,893 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:27:00,893 - INFO - Epoch: 13/250
+2025-07-31 07:28:40,106 - INFO - Train Loss: 1.021823
+2025-07-31 07:28:44,346 - INFO - Valid Loss: 0.918610 | Valid Accuracy: 81.91%
+2025-07-31 07:28:44,346 - INFO - Validation loss decreased (0.937243 --> 0.918610). Saving model...
+2025-07-31 07:28:44,586 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:28:44,586 - INFO - Epoch: 14/250
+2025-07-31 07:30:24,042 - INFO - Train Loss: 1.017269
+2025-07-31 07:30:28,277 - INFO - Valid Loss: 0.978070 | Valid Accuracy: 79.11%
+2025-07-31 07:30:28,278 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:30:28,278 - INFO - Epoch: 15/250
+2025-07-31 07:32:07,512 - INFO - Train Loss: 1.009828
+2025-07-31 07:32:11,946 - INFO - Valid Loss: 1.101715 | Valid Accuracy: 73.39%
+2025-07-31 07:32:11,947 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:32:11,947 - INFO - Epoch: 16/250
+2025-07-31 07:33:51,234 - INFO - Train Loss: 0.999127
+2025-07-31 07:33:55,468 - INFO - Valid Loss: 0.925363 | Valid Accuracy: 81.66%
+2025-07-31 07:33:55,469 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:33:55,469 - INFO - Epoch: 17/250
+2025-07-31 07:35:34,861 - INFO - Train Loss: 0.990222
+2025-07-31 07:35:39,100 - INFO - Valid Loss: 0.914024 | Valid Accuracy: 82.32%
+2025-07-31 07:35:39,100 - INFO - Validation loss decreased (0.918610 --> 0.914024). Saving model...
+2025-07-31 07:35:39,331 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:35:39,332 - INFO - Epoch: 18/250
+2025-07-31 07:37:18,566 - INFO - Train Loss: 0.987428
+2025-07-31 07:37:22,794 - INFO - Valid Loss: 0.884112 | Valid Accuracy: 83.94%
+2025-07-31 07:37:22,795 - INFO - Validation loss decreased (0.914024 --> 0.884112). Saving model...
+2025-07-31 07:37:23,044 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:37:23,045 - INFO - Epoch: 19/250
+2025-07-31 07:39:02,565 - INFO - Train Loss: 0.976453
+2025-07-31 07:39:06,818 - INFO - Valid Loss: 0.856990 | Valid Accuracy: 84.60%
+2025-07-31 07:39:06,819 - INFO - Validation loss decreased (0.884112 --> 0.856990). Saving model...
+2025-07-31 07:39:07,054 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:39:07,055 - INFO - Epoch: 20/250
+2025-07-31 07:40:46,331 - INFO - Train Loss: 0.976514
+2025-07-31 07:40:50,576 - INFO - Valid Loss: 0.889828 | Valid Accuracy: 83.58%
+2025-07-31 07:40:50,576 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:40:50,577 - INFO - Epoch: 21/250
+2025-07-31 07:42:30,017 - INFO - Train Loss: 0.967534
+2025-07-31 07:42:34,266 - INFO - Valid Loss: 0.898212 | Valid Accuracy: 82.90%
+2025-07-31 07:42:34,267 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:42:34,268 - INFO - Epoch: 22/250
+2025-07-31 07:44:13,464 - INFO - Train Loss: 0.962829
+2025-07-31 07:44:17,691 - INFO - Valid Loss: 0.890123 | Valid Accuracy: 83.12%
+2025-07-31 07:44:17,692 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:44:17,692 - INFO - Epoch: 23/250
+2025-07-31 07:45:57,098 - INFO - Train Loss: 0.956323
+2025-07-31 07:46:01,337 - INFO - Valid Loss: 0.883274 | Valid Accuracy: 84.04%
+2025-07-31 07:46:01,338 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:46:01,339 - INFO - Epoch: 24/250
+2025-07-31 07:47:40,592 - INFO - Train Loss: 0.955225
+2025-07-31 07:47:44,835 - INFO - Valid Loss: 0.950802 | Valid Accuracy: 80.57%
+2025-07-31 07:47:44,836 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:47:44,837 - INFO - Epoch: 25/250
+2025-07-31 07:49:24,177 - INFO - Train Loss: 0.950027
+2025-07-31 07:49:28,409 - INFO - Valid Loss: 0.862382 | Valid Accuracy: 84.79%
+2025-07-31 07:49:28,410 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:49:28,410 - INFO - Epoch: 26/250
+2025-07-31 07:51:07,594 - INFO - Train Loss: 0.950826
+2025-07-31 07:51:11,827 - INFO - Valid Loss: 0.870726 | Valid Accuracy: 84.69%
+2025-07-31 07:51:11,828 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:51:11,828 - INFO - Epoch: 27/250
+2025-07-31 07:52:51,193 - INFO - Train Loss: 0.947065
+2025-07-31 07:52:55,418 - INFO - Valid Loss: 0.981375 | Valid Accuracy: 79.25%
+2025-07-31 07:52:55,419 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:52:55,420 - INFO - Epoch: 28/250
+2025-07-31 07:54:34,600 - INFO - Train Loss: 0.941626
+2025-07-31 07:54:38,840 - INFO - Valid Loss: 0.905711 | Valid Accuracy: 82.80%
+2025-07-31 07:54:38,841 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:54:38,842 - INFO - Epoch: 29/250
+2025-07-31 07:56:18,208 - INFO - Train Loss: 0.937848
+2025-07-31 07:56:22,455 - INFO - Valid Loss: 0.914753 | Valid Accuracy: 81.92%
+2025-07-31 07:56:22,456 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:56:22,457 - INFO - Epoch: 30/250
+2025-07-31 07:58:01,657 - INFO - Train Loss: 0.938757
+2025-07-31 07:58:05,892 - INFO - Valid Loss: 0.949915 | Valid Accuracy: 81.19%
+2025-07-31 07:58:05,893 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:58:05,893 - INFO - Epoch: 31/250
+2025-07-31 07:59:45,305 - INFO - Train Loss: 0.936091
+2025-07-31 07:59:49,532 - INFO - Valid Loss: 0.892938 | Valid Accuracy: 83.59%
+2025-07-31 07:59:49,532 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 07:59:49,533 - INFO - Epoch: 32/250
+2025-07-31 08:01:28,726 - INFO - Train Loss: 0.934955
+2025-07-31 08:01:33,130 - INFO - Valid Loss: 0.947170 | Valid Accuracy: 81.40%
+2025-07-31 08:01:33,131 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:01:33,131 - INFO - Epoch: 33/250
+2025-07-31 08:03:12,346 - INFO - Train Loss: 0.933384
+2025-07-31 08:03:16,593 - INFO - Valid Loss: 0.965233 | Valid Accuracy: 81.03%
+2025-07-31 08:03:16,594 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:03:16,594 - INFO - Epoch: 34/250
+2025-07-31 08:04:55,982 - INFO - Train Loss: 0.933393
+2025-07-31 08:05:00,211 - INFO - Valid Loss: 0.815521 | Valid Accuracy: 86.70%
+2025-07-31 08:05:00,212 - INFO - Validation loss decreased (0.856990 --> 0.815521). Saving model...
+2025-07-31 08:05:00,444 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:05:00,445 - INFO - Epoch: 35/250
+2025-07-31 08:06:39,623 - INFO - Train Loss: 0.930298
+2025-07-31 08:06:43,845 - INFO - Valid Loss: 0.832551 | Valid Accuracy: 85.90%
+2025-07-31 08:06:43,846 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:06:43,846 - INFO - Epoch: 36/250
+2025-07-31 08:08:23,217 - INFO - Train Loss: 0.925417
+2025-07-31 08:08:27,481 - INFO - Valid Loss: 0.824237 | Valid Accuracy: 86.66%
+2025-07-31 08:08:27,482 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:08:27,482 - INFO - Epoch: 37/250
+2025-07-31 08:10:06,723 - INFO - Train Loss: 0.924479
+2025-07-31 08:10:10,950 - INFO - Valid Loss: 0.890411 | Valid Accuracy: 83.61%
+2025-07-31 08:10:10,951 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:10:10,951 - INFO - Epoch: 38/250
+2025-07-31 08:11:50,303 - INFO - Train Loss: 0.921745
+2025-07-31 08:11:54,544 - INFO - Valid Loss: 0.867588 | Valid Accuracy: 84.19%
+2025-07-31 08:11:54,545 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:11:54,545 - INFO - Epoch: 39/250
+2025-07-31 08:13:33,730 - INFO - Train Loss: 0.926753
+2025-07-31 08:13:37,980 - INFO - Valid Loss: 0.822043 | Valid Accuracy: 86.53%
+2025-07-31 08:13:37,981 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:13:37,981 - INFO - Epoch: 40/250
+2025-07-31 08:15:17,404 - INFO - Train Loss: 0.919025
+2025-07-31 08:15:21,634 - INFO - Valid Loss: 0.842062 | Valid Accuracy: 85.64%
+2025-07-31 08:15:21,635 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:15:21,635 - INFO - Epoch: 41/250
+2025-07-31 08:17:00,802 - INFO - Train Loss: 0.919605
+2025-07-31 08:17:05,031 - INFO - Valid Loss: 0.848054 | Valid Accuracy: 85.23%
+2025-07-31 08:17:05,032 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:17:05,032 - INFO - Epoch: 42/250
+2025-07-31 08:18:44,397 - INFO - Train Loss: 0.919071
+2025-07-31 08:18:48,623 - INFO - Valid Loss: 0.873115 | Valid Accuracy: 84.40%
+2025-07-31 08:18:48,624 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:18:48,625 - INFO - Epoch: 43/250
+2025-07-31 08:20:27,820 - INFO - Train Loss: 0.914398
+2025-07-31 08:20:32,065 - INFO - Valid Loss: 0.818822 | Valid Accuracy: 86.50%
+2025-07-31 08:20:32,066 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:20:32,066 - INFO - Epoch: 44/250
+2025-07-31 08:22:11,417 - INFO - Train Loss: 0.912898
+2025-07-31 08:22:15,650 - INFO - Valid Loss: 0.824368 | Valid Accuracy: 86.45%
+2025-07-31 08:22:15,651 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:22:15,651 - INFO - Epoch: 45/250
+2025-07-31 08:23:54,857 - INFO - Train Loss: 0.912565
+2025-07-31 08:23:59,103 - INFO - Valid Loss: 0.871458 | Valid Accuracy: 84.79%
+2025-07-31 08:23:59,104 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:23:59,104 - INFO - Epoch: 46/250
+2025-07-31 08:25:38,459 - INFO - Train Loss: 0.909650
+2025-07-31 08:25:42,700 - INFO - Valid Loss: 0.867407 | Valid Accuracy: 84.38%
+2025-07-31 08:25:42,701 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:25:42,701 - INFO - Epoch: 47/250
+2025-07-31 08:27:21,843 - INFO - Train Loss: 0.913153
+2025-07-31 08:27:26,095 - INFO - Valid Loss: 0.814555 | Valid Accuracy: 86.75%
+2025-07-31 08:27:26,095 - INFO - Validation loss decreased (0.815521 --> 0.814555). Saving model...
+2025-07-31 08:27:26,332 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:27:26,332 - INFO - Epoch: 48/250
+2025-07-31 08:29:05,700 - INFO - Train Loss: 0.910275
+2025-07-31 08:29:09,940 - INFO - Valid Loss: 0.819224 | Valid Accuracy: 86.29%
+2025-07-31 08:29:09,942 - INFO - Adjusted learning rate: 0.100000
+2025-07-31 08:29:09,942 - INFO - Epoch: 49/250
+2025-07-31 08:30:49,083 - INFO - Train Loss: 0.912729
+2025-07-31 08:30:53,328 - INFO - Valid Loss: 0.847820 | Valid Accuracy: 85.07%
+2025-07-31 08:30:53,329 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:30:53,329 - INFO - Epoch: 50/250
+2025-07-31 08:32:32,758 - INFO - Train Loss: 0.787228
+2025-07-31 08:32:36,989 - INFO - Valid Loss: 0.673688 | Valid Accuracy: 92.84%
+2025-07-31 08:32:36,990 - INFO - Validation loss decreased (0.814555 --> 0.673688). Saving model...
+2025-07-31 08:32:37,222 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:32:37,223 - INFO - Epoch: 51/250
+2025-07-31 08:34:16,404 - INFO - Train Loss: 0.746963
+2025-07-31 08:34:20,631 - INFO - Valid Loss: 0.662076 | Valid Accuracy: 93.34%
+2025-07-31 08:34:20,631 - INFO - Validation loss decreased (0.673688 --> 0.662076). Saving model...
+2025-07-31 08:34:20,865 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:34:20,865 - INFO - Epoch: 52/250
+2025-07-31 08:36:00,247 - INFO - Train Loss: 0.732830
+2025-07-31 08:36:04,491 - INFO - Valid Loss: 0.654842 | Valid Accuracy: 93.59%
+2025-07-31 08:36:04,491 - INFO - Validation loss decreased (0.662076 --> 0.654842). Saving model...
+2025-07-31 08:36:04,725 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:36:04,725 - INFO - Epoch: 53/250
+2025-07-31 08:37:43,983 - INFO - Train Loss: 0.727675
+2025-07-31 08:37:48,221 - INFO - Valid Loss: 0.664419 | Valid Accuracy: 92.96%
+2025-07-31 08:37:48,222 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:37:48,222 - INFO - Epoch: 54/250
+2025-07-31 08:39:27,573 - INFO - Train Loss: 0.718998
+2025-07-31 08:39:31,809 - INFO - Valid Loss: 0.658891 | Valid Accuracy: 93.26%
+2025-07-31 08:39:31,810 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:39:31,811 - INFO - Epoch: 55/250
+2025-07-31 08:41:10,967 - INFO - Train Loss: 0.716380
+2025-07-31 08:41:15,206 - INFO - Valid Loss: 0.655625 | Valid Accuracy: 93.44%
+2025-07-31 08:41:15,207 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:41:15,207 - INFO - Epoch: 56/250
+2025-07-31 08:42:54,546 - INFO - Train Loss: 0.713423
+2025-07-31 08:42:58,776 - INFO - Valid Loss: 0.660562 | Valid Accuracy: 93.06%
+2025-07-31 08:42:58,777 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:42:58,777 - INFO - Epoch: 57/250
+2025-07-31 08:44:37,911 - INFO - Train Loss: 0.712293
+2025-07-31 08:44:42,168 - INFO - Valid Loss: 0.650556 | Valid Accuracy: 93.62%
+2025-07-31 08:44:42,169 - INFO - Validation loss decreased (0.654842 --> 0.650556). Saving model...
+2025-07-31 08:44:42,401 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:44:42,402 - INFO - Epoch: 58/250
+2025-07-31 08:46:21,821 - INFO - Train Loss: 0.712477
+2025-07-31 08:46:26,055 - INFO - Valid Loss: 0.659117 | Valid Accuracy: 93.36%
+2025-07-31 08:46:26,056 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:46:26,056 - INFO - Epoch: 59/250
+2025-07-31 08:48:05,240 - INFO - Train Loss: 0.707808
+2025-07-31 08:48:09,467 - INFO - Valid Loss: 0.659348 | Valid Accuracy: 93.38%
+2025-07-31 08:48:09,468 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:48:09,468 - INFO - Epoch: 60/250
+2025-07-31 08:49:48,790 - INFO - Train Loss: 0.714251
+2025-07-31 08:49:53,021 - INFO - Valid Loss: 0.671038 | Valid Accuracy: 92.86%
+2025-07-31 08:49:53,022 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:49:53,022 - INFO - Epoch: 61/250
+2025-07-31 08:51:32,218 - INFO - Train Loss: 0.712634
+2025-07-31 08:51:36,454 - INFO - Valid Loss: 0.657554 | Valid Accuracy: 93.52%
+2025-07-31 08:51:36,455 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:51:36,455 - INFO - Epoch: 62/250
+2025-07-31 08:53:15,799 - INFO - Train Loss: 0.711815
+2025-07-31 08:53:20,032 - INFO - Valid Loss: 0.669453 | Valid Accuracy: 92.81%
+2025-07-31 08:53:20,033 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:53:20,033 - INFO - Epoch: 63/250
+2025-07-31 08:54:59,193 - INFO - Train Loss: 0.708248
+2025-07-31 08:55:03,439 - INFO - Valid Loss: 0.663981 | Valid Accuracy: 92.97%
+2025-07-31 08:55:03,440 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:55:03,440 - INFO - Epoch: 64/250
+2025-07-31 08:56:42,833 - INFO - Train Loss: 0.712421
+2025-07-31 08:56:47,056 - INFO - Valid Loss: 0.678398 | Valid Accuracy: 92.60%
+2025-07-31 08:56:47,057 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:56:47,057 - INFO - Epoch: 65/250
+2025-07-31 08:58:26,237 - INFO - Train Loss: 0.713452
+2025-07-31 08:58:30,484 - INFO - Valid Loss: 0.689466 | Valid Accuracy: 91.84%
+2025-07-31 08:58:30,485 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 08:58:30,485 - INFO - Epoch: 66/250
+2025-07-31 09:00:09,832 - INFO - Train Loss: 0.711899
+2025-07-31 09:00:14,066 - INFO - Valid Loss: 0.678191 | Valid Accuracy: 92.59%
+2025-07-31 09:00:14,067 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:00:14,068 - INFO - Epoch: 67/250
+2025-07-31 09:01:53,330 - INFO - Train Loss: 0.711457
+2025-07-31 09:01:57,589 - INFO - Valid Loss: 0.664687 | Valid Accuracy: 93.09%
+2025-07-31 09:01:57,590 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:01:57,591 - INFO - Epoch: 68/250
+2025-07-31 09:03:36,999 - INFO - Train Loss: 0.711170
+2025-07-31 09:03:41,223 - INFO - Valid Loss: 0.665163 | Valid Accuracy: 93.13%
+2025-07-31 09:03:41,224 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:03:41,224 - INFO - Epoch: 69/250
+2025-07-31 09:05:20,383 - INFO - Train Loss: 0.707666
+2025-07-31 09:05:24,630 - INFO - Valid Loss: 0.664845 | Valid Accuracy: 93.18%
+2025-07-31 09:05:24,631 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:05:24,631 - INFO - Epoch: 70/250
+2025-07-31 09:07:03,951 - INFO - Train Loss: 0.709734
+2025-07-31 09:07:08,187 - INFO - Valid Loss: 0.665184 | Valid Accuracy: 93.06%
+2025-07-31 09:07:08,189 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:07:08,189 - INFO - Epoch: 71/250
+2025-07-31 09:08:47,421 - INFO - Train Loss: 0.707437
+2025-07-31 09:08:51,822 - INFO - Valid Loss: 0.666610 | Valid Accuracy: 92.80%
+2025-07-31 09:08:51,823 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:08:51,824 - INFO - Epoch: 72/250
+2025-07-31 09:10:31,009 - INFO - Train Loss: 0.708836
+2025-07-31 09:10:35,238 - INFO - Valid Loss: 0.659589 | Valid Accuracy: 93.31%
+2025-07-31 09:10:35,239 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:10:35,239 - INFO - Epoch: 73/250
+2025-07-31 09:12:14,602 - INFO - Train Loss: 0.709319
+2025-07-31 09:12:18,837 - INFO - Valid Loss: 0.661090 | Valid Accuracy: 93.24%
+2025-07-31 09:12:18,838 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:12:18,839 - INFO - Epoch: 74/250
+2025-07-31 09:13:57,995 - INFO - Train Loss: 0.709877
+2025-07-31 09:14:02,237 - INFO - Valid Loss: 0.684827 | Valid Accuracy: 92.36%
+2025-07-31 09:14:02,238 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:14:02,238 - INFO - Epoch: 75/250
+2025-07-31 09:15:41,615 - INFO - Train Loss: 0.711659
+2025-07-31 09:15:45,846 - INFO - Valid Loss: 0.678282 | Valid Accuracy: 92.59%
+2025-07-31 09:15:45,847 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:15:45,847 - INFO - Epoch: 76/250
+2025-07-31 09:17:25,070 - INFO - Train Loss: 0.713030
+2025-07-31 09:17:29,298 - INFO - Valid Loss: 0.647126 | Valid Accuracy: 93.81%
+2025-07-31 09:17:29,298 - INFO - Validation loss decreased (0.650556 --> 0.647126). Saving model...
+2025-07-31 09:17:29,529 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:17:29,529 - INFO - Epoch: 77/250
+2025-07-31 09:19:08,975 - INFO - Train Loss: 0.706378
+2025-07-31 09:19:13,208 - INFO - Valid Loss: 0.653154 | Valid Accuracy: 93.73%
+2025-07-31 09:19:13,209 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:19:13,210 - INFO - Epoch: 78/250
+2025-07-31 09:20:52,401 - INFO - Train Loss: 0.709917
+2025-07-31 09:20:56,653 - INFO - Valid Loss: 0.674659 | Valid Accuracy: 92.62%
+2025-07-31 09:20:56,654 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:20:56,654 - INFO - Epoch: 79/250
+2025-07-31 09:22:36,025 - INFO - Train Loss: 0.706890
+2025-07-31 09:22:40,252 - INFO - Valid Loss: 0.671195 | Valid Accuracy: 92.69%
+2025-07-31 09:22:40,253 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:22:40,253 - INFO - Epoch: 80/250
+2025-07-31 09:24:19,436 - INFO - Train Loss: 0.707355
+2025-07-31 09:24:23,676 - INFO - Valid Loss: 0.678115 | Valid Accuracy: 92.58%
+2025-07-31 09:24:23,677 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:24:23,677 - INFO - Epoch: 81/250
+2025-07-31 09:26:02,887 - INFO - Train Loss: 0.702924
+2025-07-31 09:26:07,115 - INFO - Valid Loss: 0.657194 | Valid Accuracy: 93.66%
+2025-07-31 09:26:07,116 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:26:07,117 - INFO - Epoch: 82/250
+2025-07-31 09:27:46,487 - INFO - Train Loss: 0.705524
+2025-07-31 09:27:50,715 - INFO - Valid Loss: 0.675013 | Valid Accuracy: 92.64%
+2025-07-31 09:27:50,716 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:27:50,716 - INFO - Epoch: 83/250
+2025-07-31 09:29:29,886 - INFO - Train Loss: 0.709078
+2025-07-31 09:29:34,305 - INFO - Valid Loss: 0.671726 | Valid Accuracy: 93.01%
+2025-07-31 09:29:34,306 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:29:34,306 - INFO - Epoch: 84/250
+2025-07-31 09:31:13,453 - INFO - Train Loss: 0.704542
+2025-07-31 09:31:17,683 - INFO - Valid Loss: 0.678191 | Valid Accuracy: 92.61%
+2025-07-31 09:31:17,684 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:31:17,684 - INFO - Epoch: 85/250
+2025-07-31 09:32:57,022 - INFO - Train Loss: 0.704090
+2025-07-31 09:33:01,247 - INFO - Valid Loss: 0.669961 | Valid Accuracy: 92.98%
+2025-07-31 09:33:01,248 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:33:01,248 - INFO - Epoch: 86/250
+2025-07-31 09:34:40,415 - INFO - Train Loss: 0.699245
+2025-07-31 09:34:44,648 - INFO - Valid Loss: 0.690175 | Valid Accuracy: 92.16%
+2025-07-31 09:34:44,649 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:34:44,649 - INFO - Epoch: 87/250
+2025-07-31 09:36:24,077 - INFO - Train Loss: 0.704938
+2025-07-31 09:36:28,310 - INFO - Valid Loss: 0.658578 | Valid Accuracy: 93.37%
+2025-07-31 09:36:28,311 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:36:28,312 - INFO - Epoch: 88/250
+2025-07-31 09:38:07,484 - INFO - Train Loss: 0.702532
+2025-07-31 09:38:11,725 - INFO - Valid Loss: 0.663595 | Valid Accuracy: 93.27%
+2025-07-31 09:38:11,726 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:38:11,726 - INFO - Epoch: 89/250
+2025-07-31 09:39:51,082 - INFO - Train Loss: 0.704119
+2025-07-31 09:39:55,321 - INFO - Valid Loss: 0.696919 | Valid Accuracy: 92.29%
+2025-07-31 09:39:55,322 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:39:55,322 - INFO - Epoch: 90/250
+2025-07-31 09:41:34,454 - INFO - Train Loss: 0.704320
+2025-07-31 09:41:38,694 - INFO - Valid Loss: 0.686622 | Valid Accuracy: 92.23%
+2025-07-31 09:41:38,695 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:41:38,696 - INFO - Epoch: 91/250
+2025-07-31 09:43:18,139 - INFO - Train Loss: 0.701296
+2025-07-31 09:43:22,360 - INFO - Valid Loss: 0.668371 | Valid Accuracy: 92.81%
+2025-07-31 09:43:22,361 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:43:22,362 - INFO - Epoch: 92/250
+2025-07-31 09:45:01,527 - INFO - Train Loss: 0.699373
+2025-07-31 09:45:05,779 - INFO - Valid Loss: 0.674796 | Valid Accuracy: 92.73%
+2025-07-31 09:45:05,780 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:45:05,780 - INFO - Epoch: 93/250
+2025-07-31 09:46:45,131 - INFO - Train Loss: 0.697839
+2025-07-31 09:46:49,360 - INFO - Valid Loss: 0.663268 | Valid Accuracy: 93.34%
+2025-07-31 09:46:49,361 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:46:49,361 - INFO - Epoch: 94/250
+2025-07-31 09:48:28,597 - INFO - Train Loss: 0.696720
+2025-07-31 09:48:32,832 - INFO - Valid Loss: 0.679722 | Valid Accuracy: 92.74%
+2025-07-31 09:48:32,833 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:48:32,833 - INFO - Epoch: 95/250
+2025-07-31 09:50:12,022 - INFO - Train Loss: 0.697808
+2025-07-31 09:50:16,252 - INFO - Valid Loss: 0.666559 | Valid Accuracy: 93.27%
+2025-07-31 09:50:16,253 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:50:16,253 - INFO - Epoch: 96/250
+2025-07-31 09:51:55,596 - INFO - Train Loss: 0.699521
+2025-07-31 09:51:59,831 - INFO - Valid Loss: 0.694451 | Valid Accuracy: 92.07%
+2025-07-31 09:51:59,832 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:51:59,832 - INFO - Epoch: 97/250
+2025-07-31 09:53:39,031 - INFO - Train Loss: 0.696813
+2025-07-31 09:53:43,453 - INFO - Valid Loss: 0.656014 | Valid Accuracy: 93.39%
+2025-07-31 09:53:43,454 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:53:43,454 - INFO - Epoch: 98/250
+2025-07-31 09:55:22,662 - INFO - Train Loss: 0.697905
+2025-07-31 09:55:26,899 - INFO - Valid Loss: 0.682516 | Valid Accuracy: 92.50%
+2025-07-31 09:55:26,900 - INFO - Adjusted learning rate: 0.020000
+2025-07-31 09:55:26,900 - INFO - Epoch: 99/250
+2025-07-31 09:57:06,255 - INFO - Train Loss: 0.696330
+2025-07-31 09:57:10,494 - INFO - Valid Loss: 0.655101 | Valid Accuracy: 93.42%
+2025-07-31 09:57:10,495 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 09:57:10,495 - INFO - Epoch: 100/250
+2025-07-31 09:58:49,672 - INFO - Train Loss: 0.637280
+2025-07-31 09:58:53,901 - INFO - Valid Loss: 0.609710 | Valid Accuracy: 95.45%
+2025-07-31 09:58:53,902 - INFO - Validation loss decreased (0.647126 --> 0.609710). Saving model...
+2025-07-31 09:58:54,135 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 09:58:54,136 - INFO - Epoch: 101/250
+2025-07-31 10:00:33,540 - INFO - Train Loss: 0.619523
+2025-07-31 10:00:37,776 - INFO - Valid Loss: 0.606913 | Valid Accuracy: 95.56%
+2025-07-31 10:00:37,776 - INFO - Validation loss decreased (0.609710 --> 0.606913). Saving model...
+2025-07-31 10:00:38,024 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:00:38,025 - INFO - Epoch: 102/250
+2025-07-31 10:02:17,117 - INFO - Train Loss: 0.610537
+2025-07-31 10:02:21,347 - INFO - Valid Loss: 0.603687 | Valid Accuracy: 95.60%
+2025-07-31 10:02:21,348 - INFO - Validation loss decreased (0.606913 --> 0.603687). Saving model...
+2025-07-31 10:02:21,570 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:02:21,571 - INFO - Epoch: 103/250
+2025-07-31 10:04:00,916 - INFO - Train Loss: 0.601395
+2025-07-31 10:04:05,133 - INFO - Valid Loss: 0.606983 | Valid Accuracy: 95.55%
+2025-07-31 10:04:05,134 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:04:05,134 - INFO - Epoch: 104/250
+2025-07-31 10:05:44,232 - INFO - Train Loss: 0.603987
+2025-07-31 10:05:48,451 - INFO - Valid Loss: 0.603252 | Valid Accuracy: 95.89%
+2025-07-31 10:05:48,452 - INFO - Validation loss decreased (0.603687 --> 0.603252). Saving model...
+2025-07-31 10:05:48,687 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:05:48,688 - INFO - Epoch: 105/250
+2025-07-31 10:07:27,973 - INFO - Train Loss: 0.598514
+2025-07-31 10:07:32,203 - INFO - Valid Loss: 0.611019 | Valid Accuracy: 95.41%
+2025-07-31 10:07:32,204 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:07:32,204 - INFO - Epoch: 106/250
+2025-07-31 10:09:11,255 - INFO - Train Loss: 0.595889
+2025-07-31 10:09:15,500 - INFO - Valid Loss: 0.603029 | Valid Accuracy: 95.76%
+2025-07-31 10:09:15,500 - INFO - Validation loss decreased (0.603252 --> 0.603029). Saving model...
+2025-07-31 10:09:15,724 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:09:15,725 - INFO - Epoch: 107/250
+2025-07-31 10:10:54,996 - INFO - Train Loss: 0.594417
+2025-07-31 10:10:59,223 - INFO - Valid Loss: 0.604237 | Valid Accuracy: 95.66%
+2025-07-31 10:10:59,223 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:10:59,224 - INFO - Epoch: 108/250
+2025-07-31 10:12:38,322 - INFO - Train Loss: 0.591762
+2025-07-31 10:12:42,562 - INFO - Valid Loss: 0.603067 | Valid Accuracy: 95.82%
+2025-07-31 10:12:42,562 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:12:42,563 - INFO - Epoch: 109/250
+2025-07-31 10:14:21,805 - INFO - Train Loss: 0.594908
+2025-07-31 10:14:26,031 - INFO - Valid Loss: 0.604913 | Valid Accuracy: 95.83%
+2025-07-31 10:14:26,032 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:14:26,033 - INFO - Epoch: 110/250
+2025-07-31 10:16:05,105 - INFO - Train Loss: 0.593051
+2025-07-31 10:16:09,335 - INFO - Valid Loss: 0.602839 | Valid Accuracy: 95.89%
+2025-07-31 10:16:09,335 - INFO - Validation loss decreased (0.603029 --> 0.602839). Saving model...
+2025-07-31 10:16:09,573 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:16:09,574 - INFO - Epoch: 111/250
+2025-07-31 10:17:48,830 - INFO - Train Loss: 0.589795
+2025-07-31 10:17:53,052 - INFO - Valid Loss: 0.604618 | Valid Accuracy: 95.75%
+2025-07-31 10:17:53,053 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:17:53,054 - INFO - Epoch: 112/250
+2025-07-31 10:19:32,190 - INFO - Train Loss: 0.589962
+2025-07-31 10:19:36,411 - INFO - Valid Loss: 0.606918 | Valid Accuracy: 95.57%
+2025-07-31 10:19:36,412 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:19:36,412 - INFO - Epoch: 113/250
+2025-07-31 10:21:15,665 - INFO - Train Loss: 0.587356
+2025-07-31 10:21:19,892 - INFO - Valid Loss: 0.599717 | Valid Accuracy: 95.94%
+2025-07-31 10:21:19,893 - INFO - Validation loss decreased (0.602839 --> 0.599717). Saving model...
+2025-07-31 10:21:20,146 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:21:20,146 - INFO - Epoch: 114/250
+2025-07-31 10:22:59,267 - INFO - Train Loss: 0.588353
+2025-07-31 10:23:03,661 - INFO - Valid Loss: 0.602706 | Valid Accuracy: 95.84%
+2025-07-31 10:23:03,662 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:23:03,662 - INFO - Epoch: 115/250
+2025-07-31 10:24:42,790 - INFO - Train Loss: 0.588941
+2025-07-31 10:24:47,012 - INFO - Valid Loss: 0.609520 | Valid Accuracy: 95.51%
+2025-07-31 10:24:47,013 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:24:47,013 - INFO - Epoch: 116/250
+2025-07-31 10:26:26,321 - INFO - Train Loss: 0.583052
+2025-07-31 10:26:30,548 - INFO - Valid Loss: 0.605339 | Valid Accuracy: 95.89%
+2025-07-31 10:26:30,549 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:26:30,549 - INFO - Epoch: 117/250
+2025-07-31 10:28:09,657 - INFO - Train Loss: 0.587476
+2025-07-31 10:28:13,876 - INFO - Valid Loss: 0.605321 | Valid Accuracy: 95.68%
+2025-07-31 10:28:13,877 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:28:13,877 - INFO - Epoch: 118/250
+2025-07-31 10:29:53,152 - INFO - Train Loss: 0.586912
+2025-07-31 10:29:57,385 - INFO - Valid Loss: 0.609268 | Valid Accuracy: 95.74%
+2025-07-31 10:29:57,386 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:29:57,387 - INFO - Epoch: 119/250
+2025-07-31 10:31:36,509 - INFO - Train Loss: 0.584917
+2025-07-31 10:31:40,730 - INFO - Valid Loss: 0.605881 | Valid Accuracy: 95.67%
+2025-07-31 10:31:40,731 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:31:40,731 - INFO - Epoch: 120/250
+2025-07-31 10:33:20,070 - INFO - Train Loss: 0.585185
+2025-07-31 10:33:24,301 - INFO - Valid Loss: 0.603503 | Valid Accuracy: 95.74%
+2025-07-31 10:33:24,302 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:33:24,302 - INFO - Epoch: 121/250
+2025-07-31 10:35:03,447 - INFO - Train Loss: 0.583202
+2025-07-31 10:35:07,689 - INFO - Valid Loss: 0.612563 | Valid Accuracy: 95.68%
+2025-07-31 10:35:07,690 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:35:07,690 - INFO - Epoch: 122/250
+2025-07-31 10:36:47,009 - INFO - Train Loss: 0.581863
+2025-07-31 10:36:51,231 - INFO - Valid Loss: 0.606901 | Valid Accuracy: 95.82%
+2025-07-31 10:36:51,232 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:36:51,233 - INFO - Epoch: 123/250
+2025-07-31 10:38:30,317 - INFO - Train Loss: 0.584546
+2025-07-31 10:38:34,540 - INFO - Valid Loss: 0.607380 | Valid Accuracy: 95.69%
+2025-07-31 10:38:34,541 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:38:34,541 - INFO - Epoch: 124/250
+2025-07-31 10:40:13,796 - INFO - Train Loss: 0.583510
+2025-07-31 10:40:18,029 - INFO - Valid Loss: 0.610016 | Valid Accuracy: 95.69%
+2025-07-31 10:40:18,030 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:40:18,030 - INFO - Epoch: 125/250
+2025-07-31 10:41:57,178 - INFO - Train Loss: 0.582994
+2025-07-31 10:42:01,411 - INFO - Valid Loss: 0.604956 | Valid Accuracy: 95.83%
+2025-07-31 10:42:01,412 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:42:01,413 - INFO - Epoch: 126/250
+2025-07-31 10:43:40,700 - INFO - Train Loss: 0.582050
+2025-07-31 10:43:44,935 - INFO - Valid Loss: 0.610850 | Valid Accuracy: 95.57%
+2025-07-31 10:43:44,936 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:43:44,936 - INFO - Epoch: 127/250
+2025-07-31 10:45:24,057 - INFO - Train Loss: 0.583062
+2025-07-31 10:45:28,284 - INFO - Valid Loss: 0.611117 | Valid Accuracy: 95.44%
+2025-07-31 10:45:28,286 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:45:28,286 - INFO - Epoch: 128/250
+2025-07-31 10:47:07,622 - INFO - Train Loss: 0.580581
+2025-07-31 10:47:11,844 - INFO - Valid Loss: 0.607173 | Valid Accuracy: 95.79%
+2025-07-31 10:47:11,845 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:47:11,846 - INFO - Epoch: 129/250
+2025-07-31 10:48:50,951 - INFO - Train Loss: 0.581631
+2025-07-31 10:48:55,176 - INFO - Valid Loss: 0.607574 | Valid Accuracy: 95.70%
+2025-07-31 10:48:55,177 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:48:55,177 - INFO - Epoch: 130/250
+2025-07-31 10:50:34,516 - INFO - Train Loss: 0.582287
+2025-07-31 10:50:38,766 - INFO - Valid Loss: 0.604191 | Valid Accuracy: 95.95%
+2025-07-31 10:50:38,767 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:50:38,768 - INFO - Epoch: 131/250
+2025-07-31 10:52:17,945 - INFO - Train Loss: 0.582877
+2025-07-31 10:52:22,183 - INFO - Valid Loss: 0.609631 | Valid Accuracy: 95.74%
+2025-07-31 10:52:22,185 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:52:22,185 - INFO - Epoch: 132/250
+2025-07-31 10:54:01,479 - INFO - Train Loss: 0.580590
+2025-07-31 10:54:05,735 - INFO - Valid Loss: 0.610274 | Valid Accuracy: 95.85%
+2025-07-31 10:54:05,736 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:54:05,736 - INFO - Epoch: 133/250
+2025-07-31 10:55:44,834 - INFO - Train Loss: 0.583626
+2025-07-31 10:55:49,050 - INFO - Valid Loss: 0.609232 | Valid Accuracy: 95.63%
+2025-07-31 10:55:49,051 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:55:49,051 - INFO - Epoch: 134/250
+2025-07-31 10:57:28,295 - INFO - Train Loss: 0.583102
+2025-07-31 10:57:32,522 - INFO - Valid Loss: 0.610912 | Valid Accuracy: 95.53%
+2025-07-31 10:57:32,523 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:57:32,524 - INFO - Epoch: 135/250
+2025-07-31 10:59:11,643 - INFO - Train Loss: 0.581819
+2025-07-31 10:59:15,862 - INFO - Valid Loss: 0.605936 | Valid Accuracy: 95.80%
+2025-07-31 10:59:15,863 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 10:59:15,864 - INFO - Epoch: 136/250
+2025-07-31 11:00:55,180 - INFO - Train Loss: 0.581534
+2025-07-31 11:00:59,422 - INFO - Valid Loss: 0.610902 | Valid Accuracy: 95.60%
+2025-07-31 11:00:59,424 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:00:59,424 - INFO - Epoch: 137/250
+2025-07-31 11:02:38,519 - INFO - Train Loss: 0.583259
+2025-07-31 11:02:42,955 - INFO - Valid Loss: 0.605406 | Valid Accuracy: 95.81%
+2025-07-31 11:02:42,956 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:02:42,957 - INFO - Epoch: 138/250
+2025-07-31 11:04:22,034 - INFO - Train Loss: 0.583361
+2025-07-31 11:04:26,254 - INFO - Valid Loss: 0.612518 | Valid Accuracy: 95.58%
+2025-07-31 11:04:26,255 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:04:26,255 - INFO - Epoch: 139/250
+2025-07-31 11:06:05,537 - INFO - Train Loss: 0.583057
+2025-07-31 11:06:09,791 - INFO - Valid Loss: 0.610200 | Valid Accuracy: 95.60%
+2025-07-31 11:06:09,792 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:06:09,792 - INFO - Epoch: 140/250
+2025-07-31 11:07:48,902 - INFO - Train Loss: 0.579434
+2025-07-31 11:07:53,138 - INFO - Valid Loss: 0.609961 | Valid Accuracy: 95.70%
+2025-07-31 11:07:53,139 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:07:53,139 - INFO - Epoch: 141/250
+2025-07-31 11:09:32,442 - INFO - Train Loss: 0.580974
+2025-07-31 11:09:36,669 - INFO - Valid Loss: 0.612395 | Valid Accuracy: 95.62%
+2025-07-31 11:09:36,670 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:09:36,670 - INFO - Epoch: 142/250
+2025-07-31 11:11:15,772 - INFO - Train Loss: 0.582792
+2025-07-31 11:11:19,995 - INFO - Valid Loss: 0.608171 | Valid Accuracy: 95.68%
+2025-07-31 11:11:19,996 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:11:20,000 - INFO - Epoch: 143/250
+2025-07-31 11:12:59,354 - INFO - Train Loss: 0.579715
+2025-07-31 11:13:03,571 - INFO - Valid Loss: 0.611443 | Valid Accuracy: 95.53%
+2025-07-31 11:13:03,572 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:13:03,573 - INFO - Epoch: 144/250
+2025-07-31 11:14:42,694 - INFO - Train Loss: 0.581297
+2025-07-31 11:14:46,921 - INFO - Valid Loss: 0.611058 | Valid Accuracy: 95.69%
+2025-07-31 11:14:46,922 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:14:46,922 - INFO - Epoch: 145/250
+2025-07-31 11:16:26,243 - INFO - Train Loss: 0.581908
+2025-07-31 11:16:30,487 - INFO - Valid Loss: 0.601305 | Valid Accuracy: 96.12%
+2025-07-31 11:16:30,487 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:16:30,488 - INFO - Epoch: 146/250
+2025-07-31 11:18:09,668 - INFO - Train Loss: 0.582383
+2025-07-31 11:18:13,914 - INFO - Valid Loss: 0.605410 | Valid Accuracy: 95.88%
+2025-07-31 11:18:13,915 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:18:13,915 - INFO - Epoch: 147/250
+2025-07-31 11:19:53,259 - INFO - Train Loss: 0.577407
+2025-07-31 11:19:57,523 - INFO - Valid Loss: 0.601587 | Valid Accuracy: 95.96%
+2025-07-31 11:19:57,525 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:19:57,525 - INFO - Epoch: 148/250
+2025-07-31 11:21:36,683 - INFO - Train Loss: 0.579998
+2025-07-31 11:21:40,933 - INFO - Valid Loss: 0.609077 | Valid Accuracy: 95.68%
+2025-07-31 11:21:40,934 - INFO - Adjusted learning rate: 0.004000
+2025-07-31 11:21:40,934 - INFO - Epoch: 149/250
+2025-07-31 11:23:20,339 - INFO - Train Loss: 0.580966
+2025-07-31 11:23:24,574 - INFO - Valid Loss: 0.605981 | Valid Accuracy: 95.60%
+2025-07-31 11:23:24,575 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:23:24,575 - INFO - Epoch: 150/250
+2025-07-31 11:25:03,752 - INFO - Train Loss: 0.572202
+2025-07-31 11:25:08,010 - INFO - Valid Loss: 0.592796 | Valid Accuracy: 96.11%
+2025-07-31 11:25:08,011 - INFO - Validation loss decreased (0.599717 --> 0.592796). Saving model...
+2025-07-31 11:25:08,261 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:25:08,261 - INFO - Epoch: 151/250
+2025-07-31 11:26:47,739 - INFO - Train Loss: 0.563094
+2025-07-31 11:26:51,981 - INFO - Valid Loss: 0.592426 | Valid Accuracy: 96.21%
+2025-07-31 11:26:51,982 - INFO - Validation loss decreased (0.592796 --> 0.592426). Saving model...
+2025-07-31 11:26:52,210 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:26:52,210 - INFO - Epoch: 152/250
+2025-07-31 11:28:31,390 - INFO - Train Loss: 0.566293
+2025-07-31 11:28:35,635 - INFO - Valid Loss: 0.591074 | Valid Accuracy: 96.15%
+2025-07-31 11:28:35,635 - INFO - Validation loss decreased (0.592426 --> 0.591074). Saving model...
+2025-07-31 11:28:35,885 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:28:35,885 - INFO - Epoch: 153/250
+2025-07-31 11:30:15,344 - INFO - Train Loss: 0.562047
+2025-07-31 11:30:19,566 - INFO - Valid Loss: 0.592455 | Valid Accuracy: 96.14%
+2025-07-31 11:30:19,567 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:30:19,567 - INFO - Epoch: 154/250
+2025-07-31 11:31:58,740 - INFO - Train Loss: 0.560231
+2025-07-31 11:32:02,975 - INFO - Valid Loss: 0.590154 | Valid Accuracy: 96.29%
+2025-07-31 11:32:02,976 - INFO - Validation loss decreased (0.591074 --> 0.590154). Saving model...
+2025-07-31 11:32:03,207 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:32:03,208 - INFO - Epoch: 155/250
+2025-07-31 11:33:42,642 - INFO - Train Loss: 0.561088
+2025-07-31 11:33:46,871 - INFO - Valid Loss: 0.589680 | Valid Accuracy: 96.22%
+2025-07-31 11:33:46,871 - INFO - Validation loss decreased (0.590154 --> 0.589680). Saving model...
+2025-07-31 11:33:47,105 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:33:47,106 - INFO - Epoch: 156/250
+2025-07-31 11:35:26,337 - INFO - Train Loss: 0.559425
+2025-07-31 11:35:30,561 - INFO - Valid Loss: 0.590746 | Valid Accuracy: 96.27%
+2025-07-31 11:35:30,562 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:35:30,562 - INFO - Epoch: 157/250
+2025-07-31 11:37:09,907 - INFO - Train Loss: 0.559114
+2025-07-31 11:37:14,136 - INFO - Valid Loss: 0.589483 | Valid Accuracy: 96.39%
+2025-07-31 11:37:14,136 - INFO - Validation loss decreased (0.589680 --> 0.589483). Saving model...
+2025-07-31 11:37:14,379 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:37:14,379 - INFO - Epoch: 158/250
+2025-07-31 11:38:53,628 - INFO - Train Loss: 0.556467
+2025-07-31 11:38:58,041 - INFO - Valid Loss: 0.591531 | Valid Accuracy: 96.19%
+2025-07-31 11:38:58,042 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:38:58,042 - INFO - Epoch: 159/250
+2025-07-31 11:40:37,236 - INFO - Train Loss: 0.558884
+2025-07-31 11:40:41,481 - INFO - Valid Loss: 0.590963 | Valid Accuracy: 96.23%
+2025-07-31 11:40:41,482 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:40:41,482 - INFO - Epoch: 160/250
+2025-07-31 11:42:20,667 - INFO - Train Loss: 0.557657
+2025-07-31 11:42:25,148 - INFO - Valid Loss: 0.589906 | Valid Accuracy: 96.49%
+2025-07-31 11:42:25,149 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:42:25,149 - INFO - Epoch: 161/250
+2025-07-31 11:44:04,352 - INFO - Train Loss: 0.555838
+2025-07-31 11:44:08,599 - INFO - Valid Loss: 0.591295 | Valid Accuracy: 96.26%
+2025-07-31 11:44:08,600 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:44:08,601 - INFO - Epoch: 162/250
+2025-07-31 11:45:48,010 - INFO - Train Loss: 0.558419
+2025-07-31 11:45:52,247 - INFO - Valid Loss: 0.589277 | Valid Accuracy: 96.49%
+2025-07-31 11:45:52,247 - INFO - Validation loss decreased (0.589483 --> 0.589277). Saving model...
+2025-07-31 11:45:52,474 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:45:52,475 - INFO - Epoch: 163/250
+2025-07-31 11:47:31,641 - INFO - Train Loss: 0.555441
+2025-07-31 11:47:35,868 - INFO - Valid Loss: 0.591732 | Valid Accuracy: 96.45%
+2025-07-31 11:47:35,868 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:47:35,869 - INFO - Epoch: 164/250
+2025-07-31 11:49:15,238 - INFO - Train Loss: 0.556261
+2025-07-31 11:49:19,472 - INFO - Valid Loss: 0.589058 | Valid Accuracy: 96.52%
+2025-07-31 11:49:19,472 - INFO - Validation loss decreased (0.589277 --> 0.589058). Saving model...
+2025-07-31 11:49:19,709 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:49:19,709 - INFO - Epoch: 165/250
+2025-07-31 11:50:58,959 - INFO - Train Loss: 0.557521
+2025-07-31 11:51:03,192 - INFO - Valid Loss: 0.588040 | Valid Accuracy: 96.60%
+2025-07-31 11:51:03,193 - INFO - Validation loss decreased (0.589058 --> 0.588040). Saving model...
+2025-07-31 11:51:03,428 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:51:03,429 - INFO - Epoch: 166/250
+2025-07-31 11:52:42,867 - INFO - Train Loss: 0.555624
+2025-07-31 11:52:47,109 - INFO - Valid Loss: 0.590602 | Valid Accuracy: 96.47%
+2025-07-31 11:52:47,110 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:52:47,111 - INFO - Epoch: 167/250
+2025-07-31 11:54:26,305 - INFO - Train Loss: 0.555410
+2025-07-31 11:54:30,527 - INFO - Valid Loss: 0.590876 | Valid Accuracy: 96.39%
+2025-07-31 11:54:30,527 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:54:30,528 - INFO - Epoch: 168/250
+2025-07-31 11:56:09,918 - INFO - Train Loss: 0.553832
+2025-07-31 11:56:14,143 - INFO - Valid Loss: 0.590356 | Valid Accuracy: 96.48%
+2025-07-31 11:56:14,144 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:56:14,144 - INFO - Epoch: 169/250
+2025-07-31 11:57:53,371 - INFO - Train Loss: 0.556942
+2025-07-31 11:57:57,610 - INFO - Valid Loss: 0.591757 | Valid Accuracy: 96.36%
+2025-07-31 11:57:57,611 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:57:57,612 - INFO - Epoch: 170/250
+2025-07-31 11:59:36,894 - INFO - Train Loss: 0.555690
+2025-07-31 11:59:41,294 - INFO - Valid Loss: 0.589035 | Valid Accuracy: 96.54%
+2025-07-31 11:59:41,295 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 11:59:41,295 - INFO - Epoch: 171/250
+2025-07-31 12:01:20,490 - INFO - Train Loss: 0.555521
+2025-07-31 12:01:24,724 - INFO - Valid Loss: 0.589289 | Valid Accuracy: 96.49%
+2025-07-31 12:01:24,725 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:01:24,725 - INFO - Epoch: 172/250
+2025-07-31 12:03:04,101 - INFO - Train Loss: 0.554210
+2025-07-31 12:03:08,349 - INFO - Valid Loss: 0.589201 | Valid Accuracy: 96.50%
+2025-07-31 12:03:08,351 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:03:08,351 - INFO - Epoch: 173/250
+2025-07-31 12:04:47,613 - INFO - Train Loss: 0.553612
+2025-07-31 12:04:51,851 - INFO - Valid Loss: 0.590078 | Valid Accuracy: 96.51%
+2025-07-31 12:04:51,852 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:04:51,853 - INFO - Epoch: 174/250
+2025-07-31 12:06:31,219 - INFO - Train Loss: 0.554745
+2025-07-31 12:06:35,447 - INFO - Valid Loss: 0.589871 | Valid Accuracy: 96.49%
+2025-07-31 12:06:35,448 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:06:35,449 - INFO - Epoch: 175/250
+2025-07-31 12:08:14,679 - INFO - Train Loss: 0.554033
+2025-07-31 12:08:18,901 - INFO - Valid Loss: 0.590924 | Valid Accuracy: 96.51%
+2025-07-31 12:08:18,902 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:08:18,902 - INFO - Epoch: 176/250
+2025-07-31 12:09:58,273 - INFO - Train Loss: 0.552331
+2025-07-31 12:10:02,510 - INFO - Valid Loss: 0.589515 | Valid Accuracy: 96.45%
+2025-07-31 12:10:02,511 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:10:02,511 - INFO - Epoch: 177/250
+2025-07-31 12:11:41,713 - INFO - Train Loss: 0.554097
+2025-07-31 12:11:45,941 - INFO - Valid Loss: 0.587048 | Valid Accuracy: 96.55%
+2025-07-31 12:11:45,941 - INFO - Validation loss decreased (0.588040 --> 0.587048). Saving model...
+2025-07-31 12:11:46,174 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:11:46,174 - INFO - Epoch: 178/250
+2025-07-31 12:13:25,661 - INFO - Train Loss: 0.554804
+2025-07-31 12:13:29,899 - INFO - Valid Loss: 0.590264 | Valid Accuracy: 96.46%
+2025-07-31 12:13:29,900 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:13:29,901 - INFO - Epoch: 179/250
+2025-07-31 12:15:09,093 - INFO - Train Loss: 0.553474
+2025-07-31 12:15:13,324 - INFO - Valid Loss: 0.590226 | Valid Accuracy: 96.42%
+2025-07-31 12:15:13,325 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:15:13,326 - INFO - Epoch: 180/250
+2025-07-31 12:16:52,694 - INFO - Train Loss: 0.553391
+2025-07-31 12:16:56,925 - INFO - Valid Loss: 0.590473 | Valid Accuracy: 96.39%
+2025-07-31 12:16:56,926 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:16:56,926 - INFO - Epoch: 181/250
+2025-07-31 12:18:36,104 - INFO - Train Loss: 0.553731
+2025-07-31 12:18:40,355 - INFO - Valid Loss: 0.590330 | Valid Accuracy: 96.34%
+2025-07-31 12:18:40,356 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:18:40,356 - INFO - Epoch: 182/250
+2025-07-31 12:20:19,747 - INFO - Train Loss: 0.553762
+2025-07-31 12:20:24,006 - INFO - Valid Loss: 0.588866 | Valid Accuracy: 96.33%
+2025-07-31 12:20:24,007 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:20:24,007 - INFO - Epoch: 183/250
+2025-07-31 12:22:03,237 - INFO - Train Loss: 0.554285
+2025-07-31 12:22:07,468 - INFO - Valid Loss: 0.589429 | Valid Accuracy: 96.59%
+2025-07-31 12:22:07,469 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:22:07,469 - INFO - Epoch: 184/250
+2025-07-31 12:23:46,869 - INFO - Train Loss: 0.551753
+2025-07-31 12:23:51,088 - INFO - Valid Loss: 0.590716 | Valid Accuracy: 96.47%
+2025-07-31 12:23:51,089 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:23:51,090 - INFO - Epoch: 185/250
+2025-07-31 12:25:30,276 - INFO - Train Loss: 0.554370
+2025-07-31 12:25:34,500 - INFO - Valid Loss: 0.589020 | Valid Accuracy: 96.38%
+2025-07-31 12:25:34,501 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:25:34,501 - INFO - Epoch: 186/250
+2025-07-31 12:27:13,853 - INFO - Train Loss: 0.554316
+2025-07-31 12:27:18,081 - INFO - Valid Loss: 0.589930 | Valid Accuracy: 96.45%
+2025-07-31 12:27:18,082 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:27:18,082 - INFO - Epoch: 187/250
+2025-07-31 12:28:57,268 - INFO - Train Loss: 0.549034
+2025-07-31 12:29:01,493 - INFO - Valid Loss: 0.591160 | Valid Accuracy: 96.39%
+2025-07-31 12:29:01,494 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:29:01,494 - INFO - Epoch: 188/250
+2025-07-31 12:30:40,863 - INFO - Train Loss: 0.553759
+2025-07-31 12:30:45,098 - INFO - Valid Loss: 0.591710 | Valid Accuracy: 96.43%
+2025-07-31 12:30:45,100 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:30:45,101 - INFO - Epoch: 189/250
+2025-07-31 12:32:24,344 - INFO - Train Loss: 0.551814
+2025-07-31 12:32:28,575 - INFO - Valid Loss: 0.591786 | Valid Accuracy: 96.45%
+2025-07-31 12:32:28,576 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:32:28,576 - INFO - Epoch: 190/250
+2025-07-31 12:34:07,955 - INFO - Train Loss: 0.550908
+2025-07-31 12:34:12,198 - INFO - Valid Loss: 0.590125 | Valid Accuracy: 96.40%
+2025-07-31 12:34:12,199 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:34:12,199 - INFO - Epoch: 191/250
+2025-07-31 12:35:51,465 - INFO - Train Loss: 0.550364
+2025-07-31 12:35:55,870 - INFO - Valid Loss: 0.588637 | Valid Accuracy: 96.48%
+2025-07-31 12:35:55,871 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:35:55,871 - INFO - Epoch: 192/250
+2025-07-31 12:37:35,037 - INFO - Train Loss: 0.551236
+2025-07-31 12:37:39,269 - INFO - Valid Loss: 0.586644 | Valid Accuracy: 96.73%
+2025-07-31 12:37:39,270 - INFO - Validation loss decreased (0.587048 --> 0.586644). Saving model...
+2025-07-31 12:37:39,506 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:37:39,507 - INFO - Epoch: 193/250
+2025-07-31 12:39:18,909 - INFO - Train Loss: 0.549108
+2025-07-31 12:39:23,148 - INFO - Valid Loss: 0.587882 | Valid Accuracy: 96.53%
+2025-07-31 12:39:23,150 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:39:23,150 - INFO - Epoch: 194/250
+2025-07-31 12:41:02,379 - INFO - Train Loss: 0.550641
+2025-07-31 12:41:06,616 - INFO - Valid Loss: 0.589334 | Valid Accuracy: 96.51%
+2025-07-31 12:41:06,617 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:41:06,617 - INFO - Epoch: 195/250
+2025-07-31 12:42:46,021 - INFO - Train Loss: 0.551080
+2025-07-31 12:42:50,256 - INFO - Valid Loss: 0.589759 | Valid Accuracy: 96.45%
+2025-07-31 12:42:50,257 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:42:50,257 - INFO - Epoch: 196/250
+2025-07-31 12:44:29,458 - INFO - Train Loss: 0.547880
+2025-07-31 12:44:33,691 - INFO - Valid Loss: 0.587128 | Valid Accuracy: 96.69%
+2025-07-31 12:44:33,692 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:44:33,692 - INFO - Epoch: 197/250
+2025-07-31 12:46:13,073 - INFO - Train Loss: 0.550282
+2025-07-31 12:46:17,333 - INFO - Valid Loss: 0.587536 | Valid Accuracy: 96.61%
+2025-07-31 12:46:17,334 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:46:17,334 - INFO - Epoch: 198/250
+2025-07-31 12:47:56,544 - INFO - Train Loss: 0.548116
+2025-07-31 12:48:00,778 - INFO - Valid Loss: 0.588100 | Valid Accuracy: 96.68%
+2025-07-31 12:48:00,779 - INFO - Adjusted learning rate: 0.000800
+2025-07-31 12:48:00,779 - INFO - Epoch: 199/250
+2025-07-31 12:49:40,190 - INFO - Train Loss: 0.551649
+2025-07-31 12:49:44,432 - INFO - Valid Loss: 0.587411 | Valid Accuracy: 96.59%
+2025-07-31 12:49:44,433 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 12:49:44,433 - INFO - Epoch: 200/250
+2025-07-31 12:51:23,678 - INFO - Train Loss: 0.548892
+2025-07-31 12:51:27,920 - INFO - Valid Loss: 0.584891 | Valid Accuracy: 96.73%
+2025-07-31 12:51:27,921 - INFO - Validation loss decreased (0.586644 --> 0.584891). Saving model...
+2025-07-31 12:51:28,151 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 12:51:28,151 - INFO - Epoch: 201/250
+2025-07-31 12:53:07,617 - INFO - Train Loss: 0.548868
+2025-07-31 12:53:11,853 - INFO - Valid Loss: 0.585185 | Valid Accuracy: 96.74%
+2025-07-31 12:53:11,854 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 12:53:11,854 - INFO - Epoch: 202/250
+2025-07-31 12:54:51,045 - INFO - Train Loss: 0.548104
+2025-07-31 12:54:55,274 - INFO - Valid Loss: 0.584752 | Valid Accuracy: 96.73%
+2025-07-31 12:54:55,274 - INFO - Validation loss decreased (0.584891 --> 0.584752). Saving model...
+2025-07-31 12:54:55,503 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 12:54:55,503 - INFO - Epoch: 203/250
+2025-07-31 12:56:34,852 - INFO - Train Loss: 0.548259
+2025-07-31 12:56:39,084 - INFO - Valid Loss: 0.586223 | Valid Accuracy: 96.60%
+2025-07-31 12:56:39,085 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 12:56:39,085 - INFO - Epoch: 204/250
+2025-07-31 12:58:18,210 - INFO - Train Loss: 0.547358
+2025-07-31 12:58:22,442 - INFO - Valid Loss: 0.587989 | Valid Accuracy: 96.65%
+2025-07-31 12:58:22,443 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 12:58:22,443 - INFO - Epoch: 205/250
+2025-07-31 13:00:01,774 - INFO - Train Loss: 0.547372
+2025-07-31 13:00:06,004 - INFO - Valid Loss: 0.587540 | Valid Accuracy: 96.69%
+2025-07-31 13:00:06,005 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:00:06,005 - INFO - Epoch: 206/250
+2025-07-31 13:01:45,208 - INFO - Train Loss: 0.548373
+2025-07-31 13:01:49,433 - INFO - Valid Loss: 0.586039 | Valid Accuracy: 96.74%
+2025-07-31 13:01:49,434 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:01:49,435 - INFO - Epoch: 207/250
+2025-07-31 13:03:28,753 - INFO - Train Loss: 0.547151
+2025-07-31 13:03:32,991 - INFO - Valid Loss: 0.585928 | Valid Accuracy: 96.66%
+2025-07-31 13:03:32,992 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:03:32,992 - INFO - Epoch: 208/250
+2025-07-31 13:05:12,133 - INFO - Train Loss: 0.547087
+2025-07-31 13:05:16,377 - INFO - Valid Loss: 0.585545 | Valid Accuracy: 96.68%
+2025-07-31 13:05:16,378 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:05:16,378 - INFO - Epoch: 209/250
+2025-07-31 13:06:55,750 - INFO - Train Loss: 0.547905
+2025-07-31 13:06:59,982 - INFO - Valid Loss: 0.586831 | Valid Accuracy: 96.66%
+2025-07-31 13:06:59,983 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:06:59,983 - INFO - Epoch: 210/250
+2025-07-31 13:08:39,079 - INFO - Train Loss: 0.547342
+2025-07-31 13:08:43,313 - INFO - Valid Loss: 0.585973 | Valid Accuracy: 96.70%
+2025-07-31 13:08:43,314 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:08:43,314 - INFO - Epoch: 211/250
+2025-07-31 13:10:22,713 - INFO - Train Loss: 0.546363
+2025-07-31 13:10:26,947 - INFO - Valid Loss: 0.586567 | Valid Accuracy: 96.60%
+2025-07-31 13:10:26,948 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:10:26,949 - INFO - Epoch: 212/250
+2025-07-31 13:12:06,041 - INFO - Train Loss: 0.548037
+2025-07-31 13:12:10,258 - INFO - Valid Loss: 0.588300 | Valid Accuracy: 96.56%
+2025-07-31 13:12:10,259 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:12:10,259 - INFO - Epoch: 213/250
+2025-07-31 13:13:49,565 - INFO - Train Loss: 0.547874
+2025-07-31 13:13:53,795 - INFO - Valid Loss: 0.586091 | Valid Accuracy: 96.69%
+2025-07-31 13:13:53,796 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:13:53,796 - INFO - Epoch: 214/250
+2025-07-31 13:15:32,949 - INFO - Train Loss: 0.548109
+2025-07-31 13:15:37,180 - INFO - Valid Loss: 0.586210 | Valid Accuracy: 96.61%
+2025-07-31 13:15:37,181 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:15:37,181 - INFO - Epoch: 215/250
+2025-07-31 13:17:16,461 - INFO - Train Loss: 0.548314
+2025-07-31 13:17:20,677 - INFO - Valid Loss: 0.585496 | Valid Accuracy: 96.59%
+2025-07-31 13:17:20,678 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:17:20,678 - INFO - Epoch: 216/250
+2025-07-31 13:18:59,819 - INFO - Train Loss: 0.547127
+2025-07-31 13:19:04,243 - INFO - Valid Loss: 0.585721 | Valid Accuracy: 96.59%
+2025-07-31 13:19:04,244 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:19:04,244 - INFO - Epoch: 217/250
+2025-07-31 13:20:43,385 - INFO - Train Loss: 0.546872
+2025-07-31 13:20:47,631 - INFO - Valid Loss: 0.586280 | Valid Accuracy: 96.66%
+2025-07-31 13:20:47,632 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:20:47,633 - INFO - Epoch: 218/250
+2025-07-31 13:22:26,959 - INFO - Train Loss: 0.549842
+2025-07-31 13:22:31,212 - INFO - Valid Loss: 0.585873 | Valid Accuracy: 96.69%
+2025-07-31 13:22:31,213 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:22:31,214 - INFO - Epoch: 219/250
+2025-07-31 13:24:10,336 - INFO - Train Loss: 0.545646
+2025-07-31 13:24:14,562 - INFO - Valid Loss: 0.587937 | Valid Accuracy: 96.57%
+2025-07-31 13:24:14,563 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:24:14,563 - INFO - Epoch: 220/250
+2025-07-31 13:25:53,698 - INFO - Train Loss: 0.547322
+2025-07-31 13:25:58,098 - INFO - Valid Loss: 0.587545 | Valid Accuracy: 96.60%
+2025-07-31 13:25:58,099 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:25:58,099 - INFO - Epoch: 221/250
+2025-07-31 13:27:37,284 - INFO - Train Loss: 0.546974
+2025-07-31 13:27:41,509 - INFO - Valid Loss: 0.586617 | Valid Accuracy: 96.53%
+2025-07-31 13:27:41,510 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:27:41,511 - INFO - Epoch: 222/250
+2025-07-31 13:29:20,835 - INFO - Train Loss: 0.544833
+2025-07-31 13:29:25,048 - INFO - Valid Loss: 0.586082 | Valid Accuracy: 96.64%
+2025-07-31 13:29:25,049 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:29:25,050 - INFO - Epoch: 223/250
+2025-07-31 13:31:04,213 - INFO - Train Loss: 0.547500
+2025-07-31 13:31:08,443 - INFO - Valid Loss: 0.587179 | Valid Accuracy: 96.63%
+2025-07-31 13:31:08,444 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:31:08,444 - INFO - Epoch: 224/250
+2025-07-31 13:32:47,849 - INFO - Train Loss: 0.546322
+2025-07-31 13:32:52,072 - INFO - Valid Loss: 0.585900 | Valid Accuracy: 96.59%
+2025-07-31 13:32:52,073 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:32:52,073 - INFO - Epoch: 225/250
+2025-07-31 13:34:31,217 - INFO - Train Loss: 0.546794
+2025-07-31 13:34:35,442 - INFO - Valid Loss: 0.586605 | Valid Accuracy: 96.65%
+2025-07-31 13:34:35,443 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:34:35,443 - INFO - Epoch: 226/250
+2025-07-31 13:36:14,740 - INFO - Train Loss: 0.545752
+2025-07-31 13:36:18,986 - INFO - Valid Loss: 0.587665 | Valid Accuracy: 96.54%
+2025-07-31 13:36:18,987 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:36:18,987 - INFO - Epoch: 227/250
+2025-07-31 13:37:58,193 - INFO - Train Loss: 0.547156
+2025-07-31 13:38:02,429 - INFO - Valid Loss: 0.587364 | Valid Accuracy: 96.58%
+2025-07-31 13:38:02,430 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:38:02,431 - INFO - Epoch: 228/250
+2025-07-31 13:39:41,757 - INFO - Train Loss: 0.547576
+2025-07-31 13:39:45,974 - INFO - Valid Loss: 0.587375 | Valid Accuracy: 96.55%
+2025-07-31 13:39:45,975 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:39:45,975 - INFO - Epoch: 229/250
+2025-07-31 13:41:25,117 - INFO - Train Loss: 0.545889
+2025-07-31 13:41:29,356 - INFO - Valid Loss: 0.586174 | Valid Accuracy: 96.56%
+2025-07-31 13:41:29,356 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:41:29,357 - INFO - Epoch: 230/250
+2025-07-31 13:43:08,755 - INFO - Train Loss: 0.543515
+2025-07-31 13:43:12,997 - INFO - Valid Loss: 0.585786 | Valid Accuracy: 96.58%
+2025-07-31 13:43:12,998 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:43:12,998 - INFO - Epoch: 231/250
+2025-07-31 13:44:52,129 - INFO - Train Loss: 0.547663
+2025-07-31 13:44:56,367 - INFO - Valid Loss: 0.585946 | Valid Accuracy: 96.60%
+2025-07-31 13:44:56,368 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:44:56,369 - INFO - Epoch: 232/250
+2025-07-31 13:46:35,740 - INFO - Train Loss: 0.547712
+2025-07-31 13:46:39,967 - INFO - Valid Loss: 0.584819 | Valid Accuracy: 96.69%
+2025-07-31 13:46:39,968 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:46:39,968 - INFO - Epoch: 233/250
+2025-07-31 13:48:19,089 - INFO - Train Loss: 0.547601
+2025-07-31 13:48:23,352 - INFO - Valid Loss: 0.585285 | Valid Accuracy: 96.66%
+2025-07-31 13:48:23,354 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:48:23,354 - INFO - Epoch: 234/250
+2025-07-31 13:50:02,755 - INFO - Train Loss: 0.546802
+2025-07-31 13:50:06,980 - INFO - Valid Loss: 0.586201 | Valid Accuracy: 96.67%
+2025-07-31 13:50:06,981 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:50:06,982 - INFO - Epoch: 235/250
+2025-07-31 13:51:46,125 - INFO - Train Loss: 0.545376
+2025-07-31 13:51:50,353 - INFO - Valid Loss: 0.586522 | Valid Accuracy: 96.63%
+2025-07-31 13:51:50,354 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:51:50,355 - INFO - Epoch: 236/250
+2025-07-31 13:53:29,676 - INFO - Train Loss: 0.546116
+2025-07-31 13:53:33,908 - INFO - Valid Loss: 0.586026 | Valid Accuracy: 96.70%
+2025-07-31 13:53:33,909 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:53:33,909 - INFO - Epoch: 237/250
+2025-07-31 13:55:13,047 - INFO - Train Loss: 0.546280
+2025-07-31 13:55:17,273 - INFO - Valid Loss: 0.586669 | Valid Accuracy: 96.65%
+2025-07-31 13:55:17,274 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:55:17,274 - INFO - Epoch: 238/250
+2025-07-31 13:56:56,610 - INFO - Train Loss: 0.545919
+2025-07-31 13:57:00,838 - INFO - Valid Loss: 0.585982 | Valid Accuracy: 96.75%
+2025-07-31 13:57:00,839 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:57:00,840 - INFO - Epoch: 239/250
+2025-07-31 13:58:39,994 - INFO - Train Loss: 0.545945
+2025-07-31 13:58:44,233 - INFO - Valid Loss: 0.587555 | Valid Accuracy: 96.58%
+2025-07-31 13:58:44,234 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 13:58:44,234 - INFO - Epoch: 240/250
+2025-07-31 14:00:23,557 - INFO - Train Loss: 0.548313
+2025-07-31 14:00:27,815 - INFO - Valid Loss: 0.586149 | Valid Accuracy: 96.67%
+2025-07-31 14:00:27,816 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:00:27,816 - INFO - Epoch: 241/250
+2025-07-31 14:02:06,931 - INFO - Train Loss: 0.545391
+2025-07-31 14:02:11,163 - INFO - Valid Loss: 0.585626 | Valid Accuracy: 96.70%
+2025-07-31 14:02:11,164 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:02:11,164 - INFO - Epoch: 242/250
+2025-07-31 14:03:50,554 - INFO - Train Loss: 0.546778
+2025-07-31 14:03:54,785 - INFO - Valid Loss: 0.585954 | Valid Accuracy: 96.69%
+2025-07-31 14:03:54,786 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:03:54,786 - INFO - Epoch: 243/250
+2025-07-31 14:05:33,929 - INFO - Train Loss: 0.544436
+2025-07-31 14:05:38,345 - INFO - Valid Loss: 0.587564 | Valid Accuracy: 96.64%
+2025-07-31 14:05:38,346 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:05:38,346 - INFO - Epoch: 244/250
+2025-07-31 14:07:17,519 - INFO - Train Loss: 0.544994
+2025-07-31 14:07:21,748 - INFO - Valid Loss: 0.587359 | Valid Accuracy: 96.65%
+2025-07-31 14:07:21,749 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:07:21,749 - INFO - Epoch: 245/250
+2025-07-31 14:09:00,869 - INFO - Train Loss: 0.546262
+2025-07-31 14:09:05,303 - INFO - Valid Loss: 0.588001 | Valid Accuracy: 96.61%
+2025-07-31 14:09:05,304 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:09:05,304 - INFO - Epoch: 246/250
+2025-07-31 14:10:44,412 - INFO - Train Loss: 0.545528
+2025-07-31 14:10:48,640 - INFO - Valid Loss: 0.588370 | Valid Accuracy: 96.65%
+2025-07-31 14:10:48,641 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:10:48,641 - INFO - Epoch: 247/250
+2025-07-31 14:12:27,938 - INFO - Train Loss: 0.545753
+2025-07-31 14:12:32,175 - INFO - Valid Loss: 0.587141 | Valid Accuracy: 96.64%
+2025-07-31 14:12:32,176 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:12:32,176 - INFO - Epoch: 248/250
+2025-07-31 14:14:11,302 - INFO - Train Loss: 0.545855
+2025-07-31 14:14:15,527 - INFO - Valid Loss: 0.587094 | Valid Accuracy: 96.55%
+2025-07-31 14:14:15,528 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:14:15,528 - INFO - Epoch: 249/250
+2025-07-31 14:15:54,638 - INFO - Train Loss: 0.545356
+2025-07-31 14:15:59,042 - INFO - Valid Loss: 0.585804 | Valid Accuracy: 96.71%
+2025-07-31 14:15:59,043 - INFO - Adjusted learning rate: 0.000400
+2025-07-31 14:15:59,043 - INFO - Epoch: 250/250
+2025-07-31 14:17:38,188 - INFO - Train Loss: 0.543309
+2025-07-31 14:17:42,444 - INFO - Valid Loss: 0.586877 | Valid Accuracy: 96.62%
+2025-07-31 14:17:42,446 - INFO - Training completed!
+2025-07-31 14:17:42,446 - INFO - Evaluating model on test set...
+2025-07-31 14:17:46,793 - INFO - Valid Loss: 0.589778 | Valid Accuracy: 96.64%
+2025-07-31 14:17:46,793 - INFO - Final Test Accuracy: 96.64%
